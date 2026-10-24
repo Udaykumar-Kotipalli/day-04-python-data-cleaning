@@ -1,0 +1,12 @@
+{
+  "input_rows": 1000,
+  "duplicate_order_ids": 1,
+  "invalid_dates": 1,
+  "invalid_emails": 2,
+  "non_positive_quantity": 3,
+  "non_positive_price": 2,
+  "invalid_discount": 1,
+  "cleaned_rows": 991,
+  "rows_removed": 9,
+  "rows_retained_pct": 99.1
+}

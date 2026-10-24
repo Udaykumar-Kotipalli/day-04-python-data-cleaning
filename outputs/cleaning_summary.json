@@ -1,0 +1,9 @@
+{
+  "cleaned_orders": 991,
+  "total_units": 3008,
+  "gross_sales_inr": 3423813.93,
+  "net_sales_inr": 3217401.28,
+  "average_order_value_inr": 3246.62,
+  "top_category_by_net_sales": "Electronics",
+  "top_city_by_net_sales": "Mumbai"
+}

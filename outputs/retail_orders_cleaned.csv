@@ -1,0 +1,992 @@
+order_id,order_date,customer_name,email,city,sales_channel,product_category,product,quantity,unit_price_inr,discount_rate,gross_sales_inr,net_sales_inr,order_month
+ORD-00465,2025-01-01,Isha Reddy,customer465@example.com,Jaipur,Retail Store,Books,Data Analytics 101,2.0,551.03,0.15,1102.06,936.75,2025-01
+ORD-00421,2025-01-02,Vikram Nair,customer421@example.com,Bengaluru,Marketplace,Electronics,Headphones,1.0,2216.76,0.0,2216.76,2216.76,2025-01
+ORD-00761,2025-01-02,Vikram Nair,customer761@example.com,Mumbai,Marketplace,Home & Kitchen,Mixer,5.0,2544.08,0.0,12720.4,12720.4,2025-01
+ORD-00983,2025-01-02,Kabir Rao,customer983@example.com,Hyderabad,Website,Fashion,T-Shirt,5.0,647.85,0.1,3239.25,2915.32,2025-01
+ORD-00126,2025-01-03,Meera Kumar,customer126@example.com,Kolkata,Retail Store,Electronics,Headphones,2.0,2231.06,0.15,4462.12,3792.8,2025-01
+ORD-00456,2025-01-03,Meera Kumar,customer456@example.com,Chennai,Retail Store,Home & Kitchen,Mixer,5.0,2474.49,0.1,12372.45,11135.21,2025-01
+ORD-00093,2025-01-04,Arjun Das,customer93@example.com,Jaipur,Mobile App,Books,SQL Basics,5.0,687.53,0.0,3437.65,3437.65,2025-01
+ORD-00017,2025-01-05,Isha Reddy,customer17@example.com,Hyderabad,Mobile App,Fashion,Sneakers,5.0,2788.64,0.15,13943.2,11851.72,2025-01
+ORD-00117,2025-01-05,Arjun Das,customer117@example.com,Bengaluru,Retail Store,Sports,Yoga Mat,2.0,691.31,0.1,1382.62,1244.36,2025-01
+ORD-00174,2025-01-05,Aarav Sharma,customer174@example.com,Jaipur,Marketplace,Fashion,T-Shirt,5.0,681.36,0.0,3406.8,3406.8,2025-01
+ORD-00386,2025-01-05,Rohan Patel,customer386@example.com,Hyderabad,Marketplace,Home & Kitchen,Bottle,2.0,409.09,0.05,818.18,777.27,2025-01
+ORD-00780,2025-01-05,Sana Singh,customer780@example.com,Hyderabad,Website,Books,SQL Basics,3.0,671.93,0.0,2015.79,2015.79,2025-01
+ORD-00198,2025-01-07,Kabir Rao,customer198@example.com,Hyderabad,Website,Electronics,Mouse,1.0,873.1,0.0,873.1,873.1,2025-01
+ORD-00374,2025-01-07,Vikram Nair,customer374@example.com,Pune,Marketplace,Sports,Resistance Band,2.0,746.2,0.1,1492.4,1343.16,2025-01
+ORD-00547,2025-01-07,Ananya Gupta,customer547@example.com,Kolkata,Retail Store,Home & Kitchen,Mixer,2.0,2228.4,0.1,4456.8,4011.12,2025-01
+ORD-00800,2025-01-07,Isha Reddy,customer800@example.com,Mumbai,Website,Home & Kitchen,Bottle,1.0,363.11,0.0,363.11,363.11,2025-01
+ORD-00122,2025-01-08,Arjun Das,customer122@example.com,Bengaluru,Website,Fashion,Sneakers,2.0,2855.26,0.05,5710.52,5424.99,2025-01
+ORD-00352,2025-01-09,Isha Reddy,customer352@example.com,Hyderabad,Retail Store,Home & Kitchen,Desk Lamp,2.0,990.47,0.0,1980.94,1980.94,2025-01
+ORD-00763,2025-01-10,Meera Kumar,customer763@example.com,Delhi,Mobile App,Electronics,Mouse,1.0,688.49,0.1,688.49,619.64,2025-01
+ORD-00773,2025-01-10,Arjun Das,customer773@example.com,Bengaluru,Mobile App,Home & Kitchen,Mixer,2.0,2131.21,0.15,4262.42,3623.06,2025-01
+ORD-00735,2025-01-11,Kabir Rao,customer735@example.com,Pune,Marketplace,Sports,Dumbbells,4.0,1489.67,0.15,5958.68,5064.88,2025-01
+ORD-00855,2025-01-11,Ananya Gupta,customer855@example.com,Hyderabad,Mobile App,Home & Kitchen,Bottle,3.0,406.47,0.15,1219.41,1036.5,2025-01
+ORD-00389,2025-01-12,Vikram Nair,customer389@example.com,Jaipur,Marketplace,Sports,Yoga Mat,1.0,903.93,0.0,903.93,903.93,2025-01
+ORD-00437,2025-01-13,Arjun Das,customer437@example.com,Pune,Marketplace,Home & Kitchen,Mixer,1.0,2850.11,0.15,2850.11,2422.59,2025-01
+ORD-00467,2025-01-13,Diya Verma,customer467@example.com,Kolkata,Mobile App,Electronics,USB-C Hub,3.0,1787.22,0.05,5361.66,5093.58,2025-01
+ORD-00730,2025-01-13,Kabir Rao,customer730@example.com,Kolkata,Mobile App,Home & Kitchen,Mixer,4.0,2631.62,0.0,10526.48,10526.48,2025-01
+ORD-00817,2025-01-13,Meera Kumar,customer817@example.com,Chennai,Website,Sports,Yoga Mat,1.0,889.85,0.15,889.85,756.37,2025-01
+ORD-00502,2025-01-14,Kabir Rao,customer502@example.com,Kolkata,Website,Sports,Yoga Mat,4.0,713.63,0.1,2854.52,2569.07,2025-01
+ORD-00693,2025-01-14,Rohan Patel,customer693@example.com,Pune,Website,Electronics,Headphones,3.0,1828.29,0.0,5484.87,5484.87,2025-01
+ORD-00040,2025-01-15,Meera Kumar,customer40@example.com,Mumbai,Website,Fashion,T-Shirt,4.0,588.86,0.15,2355.44,2002.12,2025-01
+ORD-00866,2025-01-15,Arjun Das,customer866@example.com,Hyderabad,Mobile App,Sports,Yoga Mat,1.0,788.19,0.0,788.19,788.19,2025-01
+ORD-00638,2025-01-16,Isha Reddy,customer638@example.com,Bengaluru,Mobile App,Sports,Dumbbells,2.0,1570.89,0.0,3141.78,3141.78,2025-01
+ORD-00717,2025-01-16,Aarav Sharma,customer717@example.com,Delhi,Mobile App,Sports,Yoga Mat,2.0,764.76,0.15,1529.52,1300.09,2025-01
+ORD-00808,2025-01-16,Ananya Gupta,customer808@example.com,Chennai,Website,Home & Kitchen,Mixer,3.0,2491.23,0.1,7473.69,6726.32,2025-01
+ORD-00828,2025-01-16,Ananya Gupta,customer828@example.com,Mumbai,Retail Store,Electronics,Headphones,3.0,2219.32,0.1,6657.96,5992.16,2025-01
+ORD-00470,2025-01-17,Rohan Patel,customer470@example.com,Delhi,Website,Electronics,USB-C Hub,3.0,1831.61,0.0,5494.83,5494.83,2025-01
+ORD-00718,2025-01-17,Arjun Das,customer718@example.com,Kolkata,Mobile App,Fashion,Backpack,2.0,1257.5,0.05,2515.0,2389.25,2025-01
+ORD-00037,2025-01-18,Arjun Das,customer37@example.com,Kolkata,Website,Fashion,T-Shirt,2.0,514.04,0.15,1028.08,873.87,2025-01
+ORD-00084,2025-01-18,Isha Reddy,customer84@example.com,Mumbai,Mobile App,Fashion,T-Shirt,3.0,678.72,0.0,2036.16,2036.16,2025-01
+ORD-00914,2025-01-18,Sana Singh,customer914@example.com,Jaipur,Marketplace,Electronics,Mouse,2.0,827.46,0.1,1654.92,1489.43,2025-01
+ORD-00018,2025-01-19,Isha Reddy,customer18@example.com,Jaipur,Retail Store,Electronics,Mouse,1.0,829.97,0.05,829.97,788.47,2025-01
+ORD-00248,2025-01-19,Ananya Gupta,customer248@example.com,Chennai,Retail Store,Books,SQL Basics,3.0,573.54,0.1,1720.62,1548.56,2025-01
+ORD-00291,2025-01-19,Kabir Rao,customer291@example.com,Kolkata,Website,Books,Data Analytics 101,4.0,570.66,0.0,2282.64,2282.64,2025-01
+ORD-00598,2025-01-20,Diya Verma,customer598@example.com,Pune,Retail Store,Books,Data Analytics 101,3.0,569.78,0.1,1709.34,1538.41,2025-01
+ORD-00615,2025-01-20,Kabir Rao,customer615@example.com,Kolkata,Website,Fashion,Sneakers,2.0,2140.83,0.05,4281.66,4067.58,2025-01
+ORD-00617,2025-01-20,Arjun Das,customer617@example.com,Mumbai,Mobile App,Books,SQL Basics,5.0,584.34,0.0,2921.7,2921.7,2025-01
+ORD-00805,2025-01-20,Sana Singh,customer805@example.com,Pune,Website,Home & Kitchen,Desk Lamp,1.0,1008.54,0.15,1008.54,857.26,2025-01
+ORD-00820,2025-01-20,Vikram Nair,customer820@example.com,Mumbai,Marketplace,Books,SQL Basics,5.0,520.6,0.0,2603.0,2603.0,2025-01
+ORD-00321,2025-01-21,Isha Reddy,customer321@example.com,Kolkata,Website,Home & Kitchen,Bottle,4.0,339.77,0.0,1359.08,1359.08,2025-01
+ORD-00394,2025-01-21,Vikram Nair,customer394@example.com,Pune,Marketplace,Books,Mystery Novel,3.0,327.65,0.0,982.95,982.95,2025-01
+ORD-00464,2025-01-22,Vikram Nair,customer464@example.com,Delhi,Retail Store,Home & Kitchen,Bottle,2.0,352.01,0.0,704.02,704.02,2025-01
+ORD-00714,2025-01-22,Sana Singh,customer714@example.com,Kolkata,Marketplace,Home & Kitchen,Mixer,4.0,2818.32,0.15,11273.28,9582.29,2025-01
+ORD-00907,2025-01-22,Aarav Sharma,customer907@example.com,Mumbai,Mobile App,Fashion,T-Shirt,4.0,570.46,0.1,2281.84,2053.66,2025-01
+ORD-00016,2025-01-23,Sana Singh,customer16@example.com,Hyderabad,Mobile App,Sports,Dumbbells,5.0,1289.96,0.15,6449.8,5482.33,2025-01
+ORD-00651,2025-01-24,Ananya Gupta,customer651@example.com,Pune,Mobile App,Home & Kitchen,Mixer,2.0,2535.87,0.0,5071.74,5071.74,2025-01
+ORD-00905,2025-01-24,Diya Verma,customer905@example.com,Chennai,Mobile App,Fashion,T-Shirt,5.0,518.38,0.1,2591.9,2332.71,2025-01
+ORD-00990,2025-01-24,Rohan Patel,customer990@example.com,Jaipur,Retail Store,Fashion,Sneakers,1.0,2255.53,0.15,2255.53,1917.2,2025-01
+ORD-00124,2025-01-25,Vikram Nair,customer124@example.com,Hyderabad,Retail Store,Electronics,Headphones,4.0,1900.27,0.0,7601.08,7601.08,2025-01
+ORD-00454,2025-01-25,Meera Kumar,customer454@example.com,Mumbai,Website,Sports,Yoga Mat,4.0,752.26,0.15,3009.04,2557.68,2025-01
+ORD-00608,2025-01-25,Ananya Gupta,customer608@example.com,Jaipur,Retail Store,Books,Mystery Novel,5.0,343.37,0.0,1716.85,1716.85,2025-01
+ORD-00953,2025-01-25,Sana Singh,customer953@example.com,Pune,Retail Store,Electronics,Mouse,5.0,895.43,0.05,4477.15,4253.29,2025-01
+ORD-00435,2025-01-26,Ananya Gupta,customer435@example.com,Mumbai,Marketplace,Books,SQL Basics,3.0,557.4,0.0,1672.2,1672.2,2025-01
+ORD-00472,2025-01-26,Arjun Das,customer472@example.com,Mumbai,Mobile App,Sports,Resistance Band,5.0,718.28,0.15,3591.4,3052.69,2025-01
+ORD-00682,2025-01-26,Rohan Patel,customer682@example.com,Bengaluru,Retail Store,Fashion,Sneakers,1.0,2525.49,0.15,2525.49,2146.67,2025-01
+ORD-00551,2025-01-27,Vikram Nair,customer551@example.com,Hyderabad,Website,Sports,Yoga Mat,1.0,682.55,0.1,682.55,614.29,2025-01
+ORD-00244,2025-01-28,Sana Singh,customer244@example.com,Bengaluru,Mobile App,Home & Kitchen,Desk Lamp,1.0,1002.95,0.15,1002.95,852.51,2025-01
+ORD-00468,2025-01-28,Sana Singh,customer468@example.com,Jaipur,Retail Store,Fashion,T-Shirt,4.0,615.19,0.1,2460.76,2214.68,2025-01
+ORD-00545,2025-01-28,Arjun Das,customer545@example.com,Mumbai,Retail Store,Fashion,T-Shirt,5.0,570.66,0.1,2853.3,2567.97,2025-01
+ORD-00590,2025-01-28,Sana Singh,customer590@example.com,Chennai,Mobile App,Books,SQL Basics,1.0,644.18,0.0,644.18,644.18,2025-01
+ORD-00594,2025-01-28,Meera Kumar,customer594@example.com,Mumbai,Marketplace,Sports,Resistance Band,5.0,722.38,0.15,3611.9,3070.12,2025-01
+ORD-00120,2025-01-29,Vikram Nair,customer120@example.com,Chennai,Retail Store,Fashion,Backpack,3.0,1343.34,0.15,4030.02,3425.52,2025-01
+ORD-00425,2025-01-29,Arjun Das,customer425@example.com,Mumbai,Retail Store,Electronics,USB-C Hub,4.0,2129.89,0.0,8519.56,8519.56,2025-01
+ORD-00749,2025-01-29,Rohan Patel,customer749@example.com,Chennai,Marketplace,Sports,Dumbbells,5.0,1427.06,0.05,7135.3,6778.54,2025-01
+ORD-00836,2025-01-29,Vikram Nair,customer836@example.com,Chennai,Marketplace,Books,Data Analytics 101,3.0,455.88,0.0,1367.64,1367.64,2025-01
+ORD-00970,2025-01-29,Arjun Das,customer970@example.com,Hyderabad,Mobile App,Sports,Yoga Mat,3.0,870.56,0.15,2611.68,2219.93,2025-01
+ORD-00304,2025-01-30,Sana Singh,customer304@example.com,Chennai,Website,Books,SQL Basics,3.0,658.95,0.1,1976.85,1779.16,2025-01
+ORD-00699,2025-01-30,Aarav Sharma,customer699@example.com,Jaipur,Marketplace,Books,Mystery Novel,4.0,349.02,0.1,1396.08,1256.47,2025-01
+ORD-00208,2025-01-31,Rohan Patel,customer208@example.com,Chennai,Website,Home & Kitchen,Mixer,1.0,2783.69,0.0,2783.69,2783.69,2025-01
+ORD-00090,2025-02-01,Meera Kumar,customer90@example.com,Mumbai,Retail Store,Sports,Dumbbells,1.0,1420.2,0.05,1420.2,1349.19,2025-02
+ORD-00504,2025-02-01,Arjun Das,customer504@example.com,Pune,Website,Sports,Yoga Mat,4.0,787.74,0.0,3150.96,3150.96,2025-02
+ORD-00987,2025-02-01,Isha Reddy,customer987@example.com,Hyderabad,Marketplace,Books,SQL Basics,2.0,624.48,0.0,1248.96,1248.96,2025-02
+ORD-00698,2025-02-02,Meera Kumar,customer698@example.com,Jaipur,Retail Store,Books,Mystery Novel,5.0,397.43,0.05,1987.15,1887.79,2025-02
+ORD-00732,2025-02-02,Meera Kumar,customer732@example.com,Bengaluru,Mobile App,Fashion,Backpack,5.0,1308.52,0.0,6542.6,6542.6,2025-02
+ORD-00912,2025-02-02,Diya Verma,customer912@example.com,Mumbai,Marketplace,Fashion,Backpack,4.0,1298.57,0.1,5194.28,4674.85,2025-02
+ORD-00261,2025-02-03,Diya Verma,customer261@example.com,Mumbai,Retail Store,Books,Mystery Novel,2.0,322.07,0.15,644.14,547.52,2025-02
+ORD-00496,2025-02-03,Aarav Sharma,customer496@example.com,Mumbai,Retail Store,Books,SQL Basics,3.0,617.88,0.0,1853.64,1853.64,2025-02
+ORD-00540,2025-02-03,Rohan Patel,customer540@example.com,Chennai,Website,Books,SQL Basics,1.0,658.52,0.0,658.52,658.52,2025-02
+ORD-00867,2025-02-03,Kabir Rao,customer867@example.com,Mumbai,Marketplace,Fashion,T-Shirt,4.0,544.08,0.15,2176.32,1849.87,2025-02
+ORD-00695,2025-02-04,Ananya Gupta,customer695@example.com,Mumbai,Marketplace,Books,Mystery Novel,2.0,351.16,0.05,702.32,667.2,2025-02
+ORD-00440,2025-02-05,Sana Singh,customer440@example.com,Bengaluru,Retail Store,Books,SQL Basics,5.0,522.07,0.05,2610.35,2479.83,2025-02
+ORD-00446,2025-02-05,Ananya Gupta,customer446@example.com,Delhi,Website,Sports,Dumbbells,4.0,1682.65,0.05,6730.6,6394.07,2025-02
+ORD-00482,2025-02-05,Rohan Patel,customer482@example.com,Kolkata,Marketplace,Home & Kitchen,Desk Lamp,4.0,989.56,0.0,3958.24,3958.24,2025-02
+ORD-00592,2025-02-06,Meera Kumar,customer592@example.com,Pune,Mobile App,Books,Data Analytics 101,3.0,547.72,0.0,1643.16,1643.16,2025-02
+ORD-00135,2025-02-07,Arjun Das,customer135@example.com,Mumbai,Retail Store,Electronics,Mouse,3.0,916.28,0.05,2748.84,2611.4,2025-02
+ORD-00501,2025-02-07,Unknown,customer501@example.com,Pune,Marketplace,Electronics,Mouse,3.0,741.5,0.0,2224.5,2224.5,2025-02
+ORD-00781,2025-02-07,Kabir Rao,customer781@example.com,Jaipur,Retail Store,Books,Data Analytics 101,3.0,472.43,0.1,1417.29,1275.56,2025-02
+ORD-00902,2025-02-07,Kabir Rao,customer902@example.com,Delhi,Marketplace,Home & Kitchen,Bottle,4.0,414.6,0.05,1658.4,1575.48,2025-02
+ORD-00995,2025-02-07,Kabir Rao,customer995@example.com,Hyderabad,Retail Store,Books,Mystery Novel,5.0,376.46,0.0,1882.3,1882.3,2025-02
+ORD-00395,2025-02-08,Arjun Das,customer395@example.com,Hyderabad,Website,Sports,Resistance Band,3.0,627.17,0.05,1881.51,1787.43,2025-02
+ORD-00398,2025-02-08,Isha Reddy,customer398@example.com,Pune,Marketplace,Books,Data Analytics 101,2.0,491.49,0.05,982.98,933.83,2025-02
+ORD-00491,2025-02-08,Diya Verma,customer491@example.com,Jaipur,Retail Store,Fashion,T-Shirt,5.0,540.26,0.0,2701.3,2701.3,2025-02
+ORD-00681,2025-02-09,Vikram Nair,customer681@example.com,Delhi,Mobile App,Home & Kitchen,Bottle,4.0,388.09,0.1,1552.36,1397.12,2025-02
+ORD-00807,2025-02-09,Meera Kumar,customer807@example.com,Mumbai,Mobile App,Home & Kitchen,Bottle,5.0,375.11,0.05,1875.55,1781.77,2025-02
+ORD-00381,2025-02-10,Vikram Nair,customer381@example.com,Chennai,Retail Store,Electronics,Headphones,5.0,1753.68,0.0,8768.4,8768.4,2025-02
+ORD-00796,2025-02-10,Aarav Sharma,customer796@example.com,Kolkata,Mobile App,Electronics,USB-C Hub,4.0,1913.46,0.05,7653.84,7271.15,2025-02
+ORD-00195,2025-02-11,Kabir Rao,customer195@example.com,Delhi,Mobile App,Fashion,Backpack,5.0,1170.77,0.0,5853.85,5853.85,2025-02
+ORD-00379,2025-02-11,Vikram Nair,customer379@example.com,Hyderabad,Marketplace,Sports,Resistance Band,1.0,689.97,0.1,689.97,620.97,2025-02
+ORD-00542,2025-02-11,Sana Singh,customer542@example.com,Kolkata,Retail Store,Home & Kitchen,Mixer,5.0,2491.06,0.15,12455.3,10587.0,2025-02
+ORD-00713,2025-02-11,Ananya Gupta,customer713@example.com,Pune,Marketplace,Fashion,T-Shirt,1.0,674.96,0.1,674.96,607.46,2025-02
+ORD-00873,2025-02-11,Arjun Das,customer873@example.com,Pune,Mobile App,Books,SQL Basics,4.0,545.83,0.0,2183.32,2183.32,2025-02
+ORD-00880,2025-02-11,Isha Reddy,customer880@example.com,Kolkata,Website,Sports,Yoga Mat,3.0,860.94,0.15,2582.82,2195.4,2025-02
+ORD-00341,2025-02-12,Meera Kumar,customer341@example.com,Delhi,Website,Electronics,USB-C Hub,5.0,1740.98,0.05,8704.9,8269.65,2025-02
+ORD-00886,2025-02-12,Arjun Das,customer886@example.com,Hyderabad,Website,Electronics,USB-C Hub,1.0,2067.26,0.1,2067.26,1860.53,2025-02
+ORD-00838,2025-02-13,Rohan Patel,customer838@example.com,Pune,Retail Store,Fashion,T-Shirt,4.0,588.65,0.0,2354.6,2354.6,2025-02
+ORD-00864,2025-02-13,Isha Reddy,customer864@example.com,Kolkata,Marketplace,Sports,Resistance Band,3.0,691.04,0.0,2073.12,2073.12,2025-02
+ORD-00911,2025-02-13,Aarav Sharma,customer911@example.com,Bengaluru,Marketplace,Electronics,Headphones,2.0,1980.63,0.05,3961.26,3763.2,2025-02
+ORD-00528,2025-02-14,Kabir Rao,customer528@example.com,Delhi,Retail Store,Fashion,Backpack,4.0,1175.54,0.15,4702.16,3996.84,2025-02
+ORD-00667,2025-02-14,Sana Singh,customer667@example.com,Delhi,Website,Electronics,Headphones,3.0,2047.21,0.05,6141.63,5834.55,2025-02
+ORD-00941,2025-02-14,Vikram Nair,customer941@example.com,Jaipur,Marketplace,Books,Data Analytics 101,4.0,464.13,0.1,1856.52,1670.87,2025-02
+ORD-00298,2025-02-15,Diya Verma,customer298@example.com,Jaipur,Website,Home & Kitchen,Bottle,4.0,430.38,0.15,1721.52,1463.29,2025-02
+ORD-00438,2025-02-15,Sana Singh,customer438@example.com,Jaipur,Retail Store,Fashion,Sneakers,5.0,2869.33,0.0,14346.65,14346.65,2025-02
+ORD-00821,2025-02-15,Vikram Nair,customer821@example.com,Delhi,Marketplace,Electronics,Mouse,3.0,883.07,0.0,2649.21,2649.21,2025-02
+ORD-00922,2025-02-15,Sana Singh,customer922@example.com,Bengaluru,Retail Store,Books,Data Analytics 101,2.0,562.98,0.1,1125.96,1013.36,2025-02
+ORD-00458,2025-02-16,Arjun Das,customer458@example.com,Bengaluru,Marketplace,Fashion,Sneakers,3.0,2147.22,0.15,6441.66,5475.41,2025-02
+ORD-00675,2025-02-16,Aarav Sharma,customer675@example.com,Jaipur,Website,Books,Mystery Novel,4.0,380.02,0.0,1520.08,1520.08,2025-02
+ORD-00958,2025-02-16,Aarav Sharma,customer958@example.com,Hyderabad,Mobile App,Books,SQL Basics,1.0,571.5,0.1,571.5,514.35,2025-02
+ORD-00001,2025-02-18,Ananya Gupta,customer1@example.com,Chennai,Retail Store,Electronics,Headphones,1.0,2009.67,0.15,2009.67,1708.22,2025-02
+ORD-00004,2025-02-18,Vikram Nair,customer4@example.com,Jaipur,Retail Store,Sports,Resistance Band,2.0,609.8,0.05,1219.6,1158.62,2025-02
+ORD-00031,2025-02-18,Diya Verma,customer31@example.com,Delhi,Marketplace,Home & Kitchen,Mixer,4.0,2740.82,0.0,10963.28,10963.28,2025-02
+ORD-00530,2025-02-18,Ananya Gupta,customer530@example.com,Delhi,Retail Store,Home & Kitchen,Bottle,5.0,428.87,0.05,2144.35,2037.13,2025-02
+ORD-00012,2025-02-19,Isha Reddy,customer12@example.com,Chennai,Retail Store,Fashion,Backpack,2.0,1265.76,0.0,2531.52,2531.52,2025-02
+ORD-00034,2025-02-19,Vikram Nair,customer34@example.com,Kolkata,Website,Electronics,USB-C Hub,3.0,2179.1,0.0,6537.3,6537.3,2025-02
+ORD-00070,2025-02-19,Aarav Sharma,customer70@example.com,Pune,Website,Sports,Resistance Band,5.0,782.55,0.05,3912.75,3717.11,2025-02
+ORD-00408,2025-02-21,Arjun Das,customer408@example.com,Hyderabad,Retail Store,Books,Mystery Novel,1.0,367.08,0.1,367.08,330.37,2025-02
+ORD-00430,2025-02-21,Ananya Gupta,customer430@example.com,Jaipur,Mobile App,Fashion,T-Shirt,4.0,527.43,0.15,2109.72,1793.26,2025-02
+ORD-00847,2025-02-22,Kabir Rao,customer847@example.com,Pune,Website,Sports,Yoga Mat,3.0,776.28,0.0,2328.84,2328.84,2025-02
+ORD-00196,2025-02-23,Arjun Das,customer196@example.com,Jaipur,Website,Sports,Resistance Band,5.0,597.7,0.15,2988.5,2540.22,2025-02
+ORD-00203,2025-02-23,Vikram Nair,customer203@example.com,Mumbai,Marketplace,Fashion,Sneakers,5.0,2188.98,0.0,10944.9,10944.9,2025-02
+ORD-00258,2025-02-23,Vikram Nair,customer258@example.com,Kolkata,Mobile App,Electronics,USB-C Hub,2.0,1929.82,0.1,3859.64,3473.68,2025-02
+ORD-00349,2025-02-23,Ananya Gupta,customer349@example.com,Chennai,Website,Electronics,Headphones,2.0,1992.6,0.05,3985.2,3785.94,2025-02
+ORD-00662,2025-02-23,Meera Kumar,customer662@example.com,Mumbai,Retail Store,Books,Mystery Novel,2.0,334.77,0.0,669.54,669.54,2025-02
+ORD-00333,2025-02-24,Kabir Rao,customer333@example.com,Kolkata,Mobile App,Home & Kitchen,Mixer,4.0,2242.18,0.1,8968.72,8071.85,2025-02
+ORD-01000,2025-02-24,Arjun Das,customer1000@example.com,Mumbai,Mobile App,Electronics,USB-C Hub,4.0,1811.72,0.0,7246.88,7246.88,2025-02
+ORD-00160,2025-02-25,Isha Reddy,customer160@example.com,Bengaluru,Retail Store,Sports,Resistance Band,3.0,697.27,0.0,2091.81,2091.81,2025-02
+ORD-00165,2025-02-25,Ananya Gupta,customer165@example.com,Kolkata,Mobile App,Sports,Dumbbells,5.0,1602.25,0.0,8011.25,8011.25,2025-02
+ORD-00359,2025-02-25,Vikram Nair,customer359@example.com,Kolkata,Website,Books,SQL Basics,4.0,556.27,0.0,2225.08,2225.08,2025-02
+ORD-00553,2025-02-25,Arjun Das,customer553@example.com,Hyderabad,Marketplace,Electronics,Mouse,4.0,909.12,0.05,3636.48,3454.66,2025-02
+ORD-00859,2025-02-25,Kabir Rao,customer859@example.com,Mumbai,Mobile App,Electronics,Mouse,2.0,749.24,0.05,1498.48,1423.56,2025-02
+ORD-00005,2025-02-26,Arjun Das,customer5@example.com,Pune,Marketplace,Sports,Yoga Mat,5.0,885.52,0.1,4427.6,3984.84,2025-02
+ORD-00532,2025-02-26,Isha Reddy,customer532@example.com,Chennai,Mobile App,Books,Mystery Novel,4.0,351.74,0.15,1406.96,1195.92,2025-02
+ORD-00639,2025-02-26,Ananya Gupta,customer639@example.com,Kolkata,Mobile App,Electronics,Mouse,1.0,867.07,0.15,867.07,737.01,2025-02
+ORD-00143,2025-02-27,Ananya Gupta,customer143@example.com,Kolkata,Marketplace,Home & Kitchen,Mixer,2.0,2206.29,0.0,4412.58,4412.58,2025-02
+ORD-00221,2025-02-27,Ananya Gupta,customer221@example.com,Delhi,Mobile App,Electronics,Mouse,5.0,684.12,0.0,3420.6,3420.6,2025-02
+ORD-00140,2025-02-28,Vikram Nair,customer140@example.com,Bengaluru,Retail Store,Sports,Dumbbells,5.0,1305.94,0.1,6529.7,5876.73,2025-02
+ORD-00284,2025-02-28,Diya Verma,customer284@example.com,Mumbai,Mobile App,Electronics,USB-C Hub,3.0,1730.3,0.15,5190.9,4412.26,2025-02
+ORD-00591,2025-02-28,Rohan Patel,customer591@example.com,Mumbai,Mobile App,Sports,Resistance Band,1.0,660.75,0.05,660.75,627.71,2025-02
+ORD-00751,2025-02-28,Diya Verma,customer751@example.com,Delhi,Website,Fashion,Backpack,3.0,1284.76,0.1,3854.28,3468.85,2025-02
+ORD-00764,2025-02-28,Diya Verma,customer764@example.com,Kolkata,Mobile App,Sports,Dumbbells,3.0,1388.83,0.05,4166.49,3958.17,2025-02
+ORD-00580,2025-03-01,Diya Verma,customer580@example.com,Kolkata,Mobile App,Books,SQL Basics,1.0,531.83,0.15,531.83,452.06,2025-03
+ORD-00963,2025-03-01,Ananya Gupta,customer963@example.com,Mumbai,Retail Store,Fashion,Sneakers,3.0,2476.76,0.05,7430.28,7058.77,2025-03
+ORD-00086,2025-03-02,Sana Singh,customer86@example.com,Mumbai,Retail Store,Books,Mystery Novel,2.0,319.87,0.0,639.74,639.74,2025-03
+ORD-00768,2025-03-02,Diya Verma,customer768@example.com,Pune,Website,Electronics,Mouse,2.0,912.88,0.0,1825.76,1825.76,2025-03
+ORD-00620,2025-03-03,Kabir Rao,customer620@example.com,Hyderabad,Retail Store,Home & Kitchen,Mixer,4.0,2529.24,0.05,10116.96,9611.11,2025-03
+ORD-00744,2025-03-03,Kabir Rao,customer744@example.com,Kolkata,Mobile App,Electronics,USB-C Hub,2.0,1620.23,0.05,3240.46,3078.44,2025-03
+ORD-00197,2025-03-04,Arjun Das,customer197@example.com,Jaipur,Mobile App,Electronics,USB-C Hub,2.0,1894.84,0.0,3789.68,3789.68,2025-03
+ORD-00742,2025-03-04,Diya Verma,customer742@example.com,Pune,Marketplace,Books,Mystery Novel,3.0,304.62,0.05,913.86,868.17,2025-03
+ORD-00356,2025-03-05,Sana Singh,customer356@example.com,Kolkata,Mobile App,Books,Mystery Novel,2.0,363.45,0.0,726.9,726.9,2025-03
+ORD-00473,2025-03-05,Meera Kumar,customer473@example.com,Bengaluru,Mobile App,Fashion,Backpack,3.0,1350.46,0.15,4051.38,3443.67,2025-03
+ORD-00679,2025-03-05,Rohan Patel,customer679@example.com,Mumbai,Website,Books,SQL Basics,1.0,555.74,0.15,555.74,472.38,2025-03
+ORD-00839,2025-03-05,Ananya Gupta,customer839@example.com,Delhi,Marketplace,Fashion,T-Shirt,3.0,637.61,0.05,1912.83,1817.19,2025-03
+ORD-00187,2025-03-06,Vikram Nair,customer187@example.com,Bengaluru,Marketplace,Books,Data Analytics 101,3.0,545.46,0.0,1636.38,1636.38,2025-03
+ORD-00842,2025-03-06,Ananya Gupta,customer842@example.com,Hyderabad,Mobile App,Fashion,Backpack,3.0,1378.56,0.1,4135.68,3722.11,2025-03
+ORD-00109,2025-03-07,Sana Singh,customer109@example.com,Bengaluru,Website,Sports,Dumbbells,2.0,1335.47,0.0,2670.94,2670.94,2025-03
+ORD-00287,2025-03-07,Meera Kumar,customer287@example.com,Mumbai,Website,Fashion,Sneakers,2.0,2527.26,0.1,5054.52,4549.07,2025-03
+ORD-00854,2025-03-07,Kabir Rao,customer854@example.com,Kolkata,Marketplace,Fashion,Sneakers,2.0,2584.53,0.0,5169.06,5169.06,2025-03
+ORD-00928,2025-03-07,Vikram Nair,customer928@example.com,Jaipur,Website,Sports,Resistance Band,2.0,791.29,0.1,1582.58,1424.32,2025-03
+ORD-00716,2025-03-08,Diya Verma,customer716@example.com,Kolkata,Website,Sports,Yoga Mat,1.0,697.46,0.05,697.46,662.59,2025-03
+ORD-00147,2025-03-09,Arjun Das,customer147@example.com,Kolkata,Website,Fashion,Sneakers,2.0,2438.51,0.0,4877.02,4877.02,2025-03
+ORD-00362,2025-03-09,Aarav Sharma,customer362@example.com,Mumbai,Retail Store,Books,SQL Basics,4.0,591.08,0.1,2364.32,2127.89,2025-03
+ORD-00047,2025-03-10,Sana Singh,customer47@example.com,Mumbai,Retail Store,Electronics,Headphones,4.0,2110.4,0.0,8441.6,8441.6,2025-03
+ORD-00211,2025-03-10,Kabir Rao,customer211@example.com,Mumbai,Website,Electronics,Headphones,2.0,2161.75,0.0,4323.5,4323.5,2025-03
+ORD-00361,2025-03-10,Meera Kumar,customer361@example.com,Kolkata,Marketplace,Sports,Resistance Band,4.0,716.36,0.05,2865.44,2722.17,2025-03
+ORD-00427,2025-03-10,Kabir Rao,customer427@example.com,Pune,Marketplace,Home & Kitchen,Mixer,5.0,2495.8,0.1,12479.0,11231.1,2025-03
+ORD-00715,2025-03-10,Ananya Gupta,customer715@example.com,Pune,Retail Store,Home & Kitchen,Mixer,3.0,2178.44,0.05,6535.32,6208.55,2025-03
+ORD-00910,2025-03-10,Vikram Nair,customer910@example.com,Mumbai,Marketplace,Sports,Resistance Band,2.0,610.87,0.0,1221.74,1221.74,2025-03
+ORD-00110,2025-03-11,Ananya Gupta,customer110@example.com,Jaipur,Marketplace,Electronics,USB-C Hub,1.0,1748.87,0.0,1748.87,1748.87,2025-03
+ORD-00190,2025-03-11,Kabir Rao,customer190@example.com,Delhi,Marketplace,Books,Mystery Novel,4.0,369.11,0.15,1476.44,1254.97,2025-03
+ORD-00270,2025-03-11,Arjun Das,customer270@example.com,Chennai,Mobile App,Home & Kitchen,Bottle,3.0,418.87,0.0,1256.61,1256.61,2025-03
+ORD-00315,2025-03-11,Rohan Patel,customer315@example.com,Pune,Mobile App,Books,SQL Basics,2.0,551.0,0.15,1102.0,936.7,2025-03
+ORD-00410,2025-03-11,Rohan Patel,customer410@example.com,Mumbai,Retail Store,Electronics,Mouse,1.0,758.63,0.1,758.63,682.77,2025-03
+ORD-00597,2025-03-11,Rohan Patel,customer597@example.com,Mumbai,Mobile App,Books,Data Analytics 101,4.0,440.3,0.15,1761.2,1497.02,2025-03
+ORD-00022,2025-03-12,Sana Singh,customer22@example.com,Chennai,Marketplace,Books,Data Analytics 101,3.0,485.08,0.1,1455.24,1309.72,2025-03
+ORD-00046,2025-03-12,Ananya Gupta,customer46@example.com,Jaipur,Mobile App,Sports,Resistance Band,4.0,742.25,0.15,2969.0,2523.65,2025-03
+ORD-00154,2025-03-12,Rohan Patel,customer154@example.com,Kolkata,Retail Store,Electronics,Mouse,4.0,891.52,0.0,3566.08,3566.08,2025-03
+ORD-00239,2025-03-12,Rohan Patel,customer239@example.com,Hyderabad,Marketplace,Books,Data Analytics 101,3.0,505.3,0.0,1515.9,1515.9,2025-03
+ORD-00485,2025-03-12,Diya Verma,customer485@example.com,Jaipur,Mobile App,Fashion,Backpack,1.0,1188.86,0.0,1188.86,1188.86,2025-03
+ORD-00647,2025-03-12,Ananya Gupta,customer647@example.com,Hyderabad,Marketplace,Books,Data Analytics 101,3.0,561.17,0.15,1683.51,1430.98,2025-03
+ORD-00812,2025-03-12,Vikram Nair,customer812@example.com,Bengaluru,Retail Store,Sports,Yoga Mat,3.0,841.32,0.0,2523.96,2523.96,2025-03
+ORD-00311,2025-03-13,Rohan Patel,customer311@example.com,Pune,Marketplace,Fashion,T-Shirt,4.0,637.64,0.15,2550.56,2167.98,2025-03
+ORD-00641,2025-03-13,Meera Kumar,customer641@example.com,Delhi,Mobile App,Books,Data Analytics 101,4.0,434.41,0.15,1737.64,1476.99,2025-03
+ORD-00752,2025-03-13,Vikram Nair,customer752@example.com,Mumbai,Mobile App,Sports,Yoga Mat,3.0,885.17,0.1,2655.51,2389.96,2025-03
+ORD-00232,2025-03-14,Isha Reddy,customer232@example.com,Mumbai,Website,Electronics,Mouse,4.0,765.52,0.05,3062.08,2908.98,2025-03
+ORD-00293,2025-03-14,Diya Verma,customer293@example.com,Chennai,Website,Home & Kitchen,Bottle,2.0,392.84,0.15,785.68,667.83,2025-03
+ORD-00686,2025-03-14,Ananya Gupta,customer686@example.com,Chennai,Retail Store,Books,Mystery Novel,3.0,388.83,0.0,1166.49,1166.49,2025-03
+ORD-00486,2025-03-15,Isha Reddy,customer486@example.com,Bengaluru,Website,Home & Kitchen,Desk Lamp,2.0,1012.92,0.05,2025.84,1924.55,2025-03
+ORD-00526,2025-03-15,Sana Singh,customer526@example.com,Jaipur,Marketplace,Fashion,Backpack,5.0,1209.39,0.05,6046.95,5744.6,2025-03
+ORD-00564,2025-03-15,Rohan Patel,customer564@example.com,Chennai,Marketplace,Books,SQL Basics,2.0,628.86,0.15,1257.72,1069.06,2025-03
+ORD-00601,2025-03-15,Diya Verma,customer601@example.com,Bengaluru,Website,Home & Kitchen,Mixer,2.0,2162.17,0.0,4324.34,4324.34,2025-03
+ORD-00868,2025-03-15,Isha Reddy,customer868@example.com,Pune,Website,Home & Kitchen,Desk Lamp,3.0,1020.13,0.05,3060.39,2907.37,2025-03
+ORD-00414,2025-03-16,Diya Verma,customer414@example.com,Jaipur,Website,Sports,Resistance Band,2.0,753.24,0.05,1506.48,1431.16,2025-03
+ORD-00664,2025-03-16,Diya Verma,customer664@example.com,Mumbai,Website,Sports,Yoga Mat,5.0,852.47,0.15,4262.35,3623.0,2025-03
+ORD-00863,2025-03-17,Aarav Sharma,customer863@example.com,Hyderabad,Retail Store,Electronics,USB-C Hub,4.0,1753.46,0.15,7013.84,5961.76,2025-03
+ORD-00521,2025-03-18,Sana Singh,customer521@example.com,Pune,Website,Books,Data Analytics 101,1.0,565.57,0.05,565.57,537.29,2025-03
+ORD-00849,2025-03-18,Rohan Patel,customer849@example.com,Pune,Mobile App,Fashion,Backpack,2.0,1188.3,0.05,2376.6,2257.77,2025-03
+ORD-00973,2025-03-18,Rohan Patel,customer973@example.com,Pune,Retail Store,Sports,Dumbbells,4.0,1591.07,0.1,6364.28,5727.85,2025-03
+ORD-00087,2025-03-19,Vikram Nair,customer87@example.com,Pune,Marketplace,Home & Kitchen,Mixer,5.0,2256.16,0.05,11280.8,10716.76,2025-03
+ORD-00145,2025-03-19,Kabir Rao,customer145@example.com,Jaipur,Mobile App,Home & Kitchen,Desk Lamp,4.0,999.13,0.0,3996.52,3996.52,2025-03
+ORD-00345,2025-03-20,Ananya Gupta,customer345@example.com,Kolkata,Retail Store,Electronics,Headphones,2.0,1835.45,0.05,3670.9,3487.36,2025-03
+ORD-00727,2025-03-20,Kabir Rao,customer727@example.com,Pune,Mobile App,Fashion,T-Shirt,1.0,555.15,0.05,555.15,527.39,2025-03
+ORD-00722,2025-03-21,Vikram Nair,customer722@example.com,Kolkata,Retail Store,Books,Mystery Novel,1.0,303.37,0.05,303.37,288.2,2025-03
+ORD-00813,2025-03-21,Rohan Patel,customer813@example.com,Delhi,Mobile App,Electronics,Mouse,1.0,874.69,0.15,874.69,743.49,2025-03
+ORD-00050,2025-03-22,Arjun Das,customer50@example.com,Kolkata,Marketplace,Electronics,Headphones,4.0,2077.32,0.1,8309.28,7478.35,2025-03
+ORD-00373,2025-03-22,Sana Singh,customer373@example.com,Delhi,Website,Electronics,Mouse,4.0,900.67,0.1,3602.68,3242.41,2025-03
+ORD-00056,2025-03-23,Meera Kumar,customer56@example.com,Bengaluru,Mobile App,Sports,Dumbbells,5.0,1352.34,0.15,6761.7,5747.44,2025-03
+ORD-00279,2025-03-23,Arjun Das,customer279@example.com,Delhi,Mobile App,Electronics,Headphones,4.0,1822.48,0.0,7289.92,7289.92,2025-03
+ORD-00557,2025-03-23,Diya Verma,customer557@example.com,Mumbai,Mobile App,Fashion,Backpack,1.0,1487.28,0.05,1487.28,1412.92,2025-03
+ORD-00162,2025-03-24,Isha Reddy,customer162@example.com,Hyderabad,Marketplace,Books,Mystery Novel,1.0,372.04,0.05,372.04,353.44,2025-03
+ORD-00737,2025-03-24,Diya Verma,customer737@example.com,Chennai,Marketplace,Home & Kitchen,Bottle,3.0,428.72,0.0,1286.16,1286.16,2025-03
+ORD-00982,2025-03-24,Kabir Rao,customer982@example.com,Jaipur,Website,Sports,Dumbbells,3.0,1549.17,0.05,4647.51,4415.13,2025-03
+ORD-00986,2025-03-24,Sana Singh,customer986@example.com,Delhi,Website,Home & Kitchen,Mixer,5.0,2798.79,0.15,13993.95,11894.86,2025-03
+ORD-00064,2025-03-25,Rohan Patel,customer64@example.com,Jaipur,Mobile App,Electronics,Mouse,4.0,878.8,0.15,3515.2,2987.92,2025-03
+ORD-00257,2025-03-25,Sana Singh,customer257@example.com,Mumbai,Mobile App,Fashion,Sneakers,5.0,2774.03,0.1,13870.15,12483.14,2025-03
+ORD-00925,2025-03-26,Arjun Das,customer925@example.com,Pune,Website,Sports,Resistance Band,3.0,668.62,0.15,2005.86,1704.98,2025-03
+ORD-00253,2025-03-27,Diya Verma,customer253@example.com,Pune,Website,Electronics,Headphones,1.0,1841.0,0.05,1841.0,1748.95,2025-03
+ORD-00896,2025-03-27,Sana Singh,customer896@example.com,Kolkata,Mobile App,Home & Kitchen,Mixer,1.0,2200.24,0.15,2200.24,1870.2,2025-03
+ORD-00935,2025-03-27,Diya Verma,customer935@example.com,Hyderabad,Website,Home & Kitchen,Desk Lamp,3.0,1008.18,0.0,3024.54,3024.54,2025-03
+ORD-00288,2025-03-28,Rohan Patel,customer288@example.com,Delhi,Mobile App,Home & Kitchen,Bottle,2.0,370.63,0.0,741.26,741.26,2025-03
+ORD-00392,2025-03-28,Rohan Patel,customer392@example.com,Delhi,Mobile App,Books,SQL Basics,4.0,570.31,0.05,2281.24,2167.18,2025-03
+ORD-00104,2025-03-30,Kabir Rao,customer104@example.com,Pune,Mobile App,Home & Kitchen,Mixer,5.0,2516.45,0.0,12582.25,12582.25,2025-03
+ORD-00297,2025-03-30,Kabir Rao,customer297@example.com,Delhi,Marketplace,Fashion,T-Shirt,3.0,597.96,0.0,1793.88,1793.88,2025-03
+ORD-00573,2025-03-30,Ananya Gupta,customer573@example.com,Pune,Mobile App,Electronics,USB-C Hub,3.0,1684.36,0.05,5053.08,4800.43,2025-03
+ORD-00960,2025-03-30,Vikram Nair,customer960@example.com,Bengaluru,Retail Store,Home & Kitchen,Bottle,5.0,425.42,0.05,2127.1,2020.74,2025-03
+ORD-00062,2025-03-31,Kabir Rao,customer62@example.com,Mumbai,Retail Store,Electronics,Headphones,3.0,2035.09,0.15,6105.27,5189.48,2025-03
+ORD-00574,2025-03-31,Arjun Das,customer574@example.com,Hyderabad,Website,Books,Data Analytics 101,1.0,430.59,0.0,430.59,430.59,2025-03
+ORD-00955,2025-03-31,Vikram Nair,customer955@example.com,Delhi,Website,Books,Mystery Novel,5.0,356.63,0.0,1783.15,1783.15,2025-03
+ORD-00670,2025-04-01,Sana Singh,customer670@example.com,Mumbai,Retail Store,Fashion,Sneakers,3.0,2501.57,0.0,7504.71,7504.71,2025-04
+ORD-00002,2025-04-02,Diya Verma,customer2@example.com,Chennai,Mobile App,Electronics,Mouse,4.0,700.89,0.0,2803.56,2803.56,2025-04
+ORD-00045,2025-04-03,Sana Singh,customer45@example.com,Delhi,Mobile App,Electronics,Headphones,4.0,2264.27,0.0,9057.08,9057.08,2025-04
+ORD-00369,2025-04-03,Diya Verma,customer369@example.com,Bengaluru,Marketplace,Sports,Dumbbells,1.0,1517.8,0.15,1517.8,1290.13,2025-04
+ORD-00784,2025-04-03,Aarav Sharma,customer784@example.com,Chennai,Marketplace,Books,Mystery Novel,5.0,327.19,0.0,1635.95,1635.95,2025-04
+ORD-00904,2025-04-03,Aarav Sharma,customer904@example.com,Bengaluru,Website,Home & Kitchen,Mixer,4.0,2535.07,0.05,10140.28,9633.27,2025-04
+ORD-00194,2025-04-04,Meera Kumar,customer194@example.com,Pune,Mobile App,Electronics,Mouse,1.0,710.45,0.15,710.45,603.88,2025-04
+ORD-00927,2025-04-04,Vikram Nair,customer927@example.com,Chennai,Retail Store,Electronics,Mouse,2.0,880.96,0.05,1761.92,1673.82,2025-04
+ORD-00387,2025-04-05,Aarav Sharma,customer387@example.com,Hyderabad,Marketplace,Books,SQL Basics,3.0,589.24,0.1,1767.72,1590.95,2025-04
+ORD-00991,2025-04-05,Ananya Gupta,customer991@example.com,Jaipur,Website,Sports,Resistance Band,1.0,610.94,0.15,610.94,519.3,2025-04
+ORD-00078,2025-04-06,Sana Singh,customer78@example.com,Chennai,Website,Electronics,Headphones,2.0,1894.12,0.15,3788.24,3220.0,2025-04
+ORD-00710,2025-04-06,Sana Singh,customer710@example.com,Hyderabad,Website,Fashion,T-Shirt,4.0,616.53,0.0,2466.12,2466.12,2025-04
+ORD-00878,2025-04-06,Rohan Patel,customer878@example.com,Hyderabad,Retail Store,Fashion,Backpack,4.0,1390.87,0.05,5563.48,5285.31,2025-04
+ORD-00396,2025-04-07,Diya Verma,customer396@example.com,Delhi,Retail Store,Electronics,USB-C Hub,5.0,1707.23,0.0,8536.15,8536.15,2025-04
+ORD-00957,2025-04-07,Kabir Rao,customer957@example.com,Pune,Website,Books,Data Analytics 101,4.0,451.33,0.15,1805.32,1534.52,2025-04
+ORD-00343,2025-04-08,Sana Singh,customer343@example.com,Bengaluru,Mobile App,Sports,Dumbbells,3.0,1660.37,0.0,4981.11,4981.11,2025-04
+ORD-00724,2025-04-08,Rohan Patel,customer724@example.com,Hyderabad,Website,Sports,Resistance Band,2.0,800.31,0.1,1600.62,1440.56,2025-04
+ORD-00385,2025-04-09,Meera Kumar,customer385@example.com,Pune,Retail Store,Fashion,Sneakers,3.0,2314.9,0.1,6944.7,6250.23,2025-04
+ORD-00466,2025-04-09,Rohan Patel,customer466@example.com,Chennai,Marketplace,Electronics,USB-C Hub,4.0,1711.11,0.15,6844.44,5817.77,2025-04
+ORD-00778,2025-04-09,Meera Kumar,customer778@example.com,Bengaluru,Website,Books,SQL Basics,2.0,623.34,0.0,1246.68,1246.68,2025-04
+ORD-00375,2025-04-10,Sana Singh,customer375@example.com,Kolkata,Website,Home & Kitchen,Desk Lamp,1.0,940.54,0.05,940.54,893.51,2025-04
+ORD-00640,2025-04-10,Aarav Sharma,customer640@example.com,Kolkata,Mobile App,Books,Data Analytics 101,1.0,449.2,0.15,449.2,381.82,2025-04
+ORD-00133,2025-04-11,Sana Singh,customer133@example.com,Kolkata,Mobile App,Home & Kitchen,Desk Lamp,2.0,975.72,0.0,1951.44,1951.44,2025-04
+ORD-00340,2025-04-11,Vikram Nair,customer340@example.com,Hyderabad,Mobile App,Fashion,Backpack,4.0,1202.79,0.05,4811.16,4570.6,2025-04
+ORD-00898,2025-04-11,Kabir Rao,customer898@example.com,Jaipur,Retail Store,Books,Mystery Novel,3.0,360.63,0.05,1081.89,1027.8,2025-04
+ORD-00127,2025-04-13,Rohan Patel,customer127@example.com,Chennai,Website,Home & Kitchen,Bottle,5.0,415.47,0.15,2077.35,1765.75,2025-04
+ORD-00347,2025-04-13,Sana Singh,customer347@example.com,Chennai,Mobile App,Home & Kitchen,Mixer,2.0,2496.6,0.15,4993.2,4244.22,2025-04
+ORD-00614,2025-04-14,Meera Kumar,customer614@example.com,Hyderabad,Website,Books,Mystery Novel,4.0,357.03,0.05,1428.12,1356.71,2025-04
+ORD-00413,2025-04-15,Meera Kumar,customer413@example.com,Pune,Website,Sports,Dumbbells,5.0,1429.5,0.1,7147.5,6432.75,2025-04
+ORD-00759,2025-04-15,Kabir Rao,customer759@example.com,Jaipur,Website,Sports,Yoga Mat,2.0,742.32,0.05,1484.64,1410.41,2025-04
+ORD-00851,2025-04-15,Isha Reddy,customer851@example.com,Delhi,Marketplace,Electronics,Headphones,3.0,2272.84,0.0,6818.52,6818.52,2025-04
+ORD-00483,2025-04-16,Isha Reddy,customer483@example.com,Hyderabad,Website,Sports,Yoga Mat,4.0,698.09,0.05,2792.36,2652.74,2025-04
+ORD-00014,2025-04-17,Arjun Das,customer14@example.com,Jaipur,Retail Store,Books,Mystery Novel,5.0,389.84,0.1,1949.2,1754.28,2025-04
+ORD-00098,2025-04-18,Kabir Rao,customer98@example.com,Jaipur,Website,Home & Kitchen,Mixer,2.0,2315.51,0.0,4631.02,4631.02,2025-04
+ORD-00450,2025-04-18,Kabir Rao,customer450@example.com,Jaipur,Marketplace,Electronics,USB-C Hub,1.0,1906.58,0.1,1906.58,1715.92,2025-04
+ORD-00965,2025-04-18,Sana Singh,customer965@example.com,Mumbai,Marketplace,Books,SQL Basics,3.0,536.51,0.1,1609.53,1448.58,2025-04
+ORD-00266,2025-04-19,Kabir Rao,customer266@example.com,Jaipur,Website,Sports,Yoga Mat,1.0,691.85,0.05,691.85,657.26,2025-04
+ORD-00294,2025-04-19,Vikram Nair,customer294@example.com,Hyderabad,Retail Store,Electronics,Mouse,1.0,908.27,0.0,908.27,908.27,2025-04
+ORD-00556,2025-04-19,Kabir Rao,customer556@example.com,Mumbai,Retail Store,Home & Kitchen,Desk Lamp,2.0,810.53,0.0,1621.06,1621.06,2025-04
+ORD-00312,2025-04-21,Diya Verma,customer312@example.com,Bengaluru,Retail Store,Home & Kitchen,Desk Lamp,3.0,872.14,0.0,2616.42,2616.42,2025-04
+ORD-00643,2025-04-21,Meera Kumar,customer643@example.com,Bengaluru,Marketplace,Books,Data Analytics 101,2.0,493.84,0.0,987.68,987.68,2025-04
+ORD-00051,2025-04-22,Meera Kumar,customer51@example.com,Delhi,Website,Sports,Resistance Band,5.0,789.43,0.0,3947.15,3947.15,2025-04
+ORD-00172,2025-04-22,Arjun Das,customer172@example.com,Pune,Retail Store,Books,Mystery Novel,4.0,362.67,0.1,1450.68,1305.61,2025-04
+ORD-00399,2025-04-22,Diya Verma,customer399@example.com,Pune,Mobile App,Fashion,T-Shirt,2.0,529.34,0.1,1058.68,952.81,2025-04
+ORD-00442,2025-04-22,Ananya Gupta,customer442@example.com,Jaipur,Marketplace,Electronics,Headphones,5.0,1941.83,0.0,9709.15,9709.15,2025-04
+ORD-00653,2025-04-22,Arjun Das,customer653@example.com,Jaipur,Website,Home & Kitchen,Bottle,2.0,393.74,0.0,787.48,787.48,2025-04
+ORD-00255,2025-04-23,Rohan Patel,customer255@example.com,Chennai,Retail Store,Electronics,Mouse,1.0,744.5,0.05,744.5,707.28,2025-04
+ORD-00448,2025-04-23,Sana Singh,customer448@example.com,Jaipur,Mobile App,Books,Mystery Novel,2.0,380.85,0.0,761.7,761.7,2025-04
+ORD-00624,2025-04-23,Aarav Sharma,customer624@example.com,Delhi,Marketplace,Home & Kitchen,Mixer,1.0,2621.94,0.05,2621.94,2490.84,2025-04
+ORD-00510,2025-04-24,Vikram Nair,customer510@example.com,Chennai,Mobile App,Fashion,Backpack,2.0,1148.0,0.1,2296.0,2066.4,2025-04
+ORD-00365,2025-04-25,Kabir Rao,customer365@example.com,Hyderabad,Retail Store,Fashion,Sneakers,2.0,2795.84,0.1,5591.68,5032.51,2025-04
+ORD-00508,2025-04-25,Sana Singh,customer508@example.com,Kolkata,Website,Home & Kitchen,Mixer,2.0,2490.43,0.1,4980.86,4482.77,2025-04
+ORD-00525,2025-04-25,Arjun Das,customer525@example.com,Jaipur,Website,Sports,Resistance Band,4.0,768.78,0.15,3075.12,2613.85,2025-04
+ORD-00634,2025-04-25,Ananya Gupta,customer634@example.com,Pune,Retail Store,Sports,Resistance Band,2.0,647.67,0.05,1295.34,1230.57,2025-04
+ORD-00705,2025-04-25,Meera Kumar,customer705@example.com,Hyderabad,Website,Books,SQL Basics,5.0,645.81,0.0,3229.05,3229.05,2025-04
+ORD-00236,2025-04-26,Diya Verma,customer236@example.com,Chennai,Retail Store,Home & Kitchen,Mixer,2.0,2634.94,0.05,5269.88,5006.39,2025-04
+ORD-00382,2025-04-26,Ananya Gupta,customer382@example.com,Pune,Website,Fashion,T-Shirt,5.0,574.68,0.0,2873.4,2873.4,2025-04
+ORD-00654,2025-04-26,Meera Kumar,customer654@example.com,Hyderabad,Marketplace,Fashion,Sneakers,3.0,2774.79,0.0,8324.37,8324.37,2025-04
+ORD-00701,2025-04-26,Kabir Rao,customer701@example.com,Jaipur,Website,Sports,Resistance Band,3.0,772.48,0.1,2317.44,2085.7,2025-04
+ORD-00011,2025-04-27,Rohan Patel,customer11@example.com,Kolkata,Mobile App,Electronics,Headphones,1.0,1944.06,0.0,1944.06,1944.06,2025-04
+ORD-00055,2025-04-27,Aarav Sharma,customer55@example.com,Hyderabad,Retail Store,Sports,Yoga Mat,2.0,760.08,0.0,1520.16,1520.16,2025-04
+ORD-00380,2025-04-27,Diya Verma,customer380@example.com,Mumbai,Website,Fashion,T-Shirt,3.0,532.84,0.1,1598.52,1438.67,2025-04
+ORD-00552,2025-04-27,Sana Singh,customer552@example.com,Hyderabad,Website,Books,SQL Basics,2.0,629.57,0.15,1259.14,1070.27,2025-04
+ORD-00116,2025-04-28,Isha Reddy,customer116@example.com,Bengaluru,Marketplace,Sports,Dumbbells,2.0,1406.89,0.0,2813.78,2813.78,2025-04
+ORD-00318,2025-04-28,Aarav Sharma,customer318@example.com,Mumbai,Mobile App,Electronics,USB-C Hub,1.0,1814.74,0.15,1814.74,1542.53,2025-04
+ORD-00415,2025-04-28,Sana Singh,customer415@example.com,Hyderabad,Mobile App,Sports,Yoga Mat,4.0,747.73,0.0,2990.92,2990.92,2025-04
+ORD-00934,2025-04-28,Sana Singh,customer934@example.com,Jaipur,Retail Store,Books,SQL Basics,4.0,672.11,0.0,2688.44,2688.44,2025-04
+ORD-00250,2025-04-29,Ananya Gupta,customer250@example.com,Kolkata,Retail Store,Fashion,T-Shirt,5.0,591.13,0.1,2955.65,2660.08,2025-04
+ORD-00676,2025-04-29,Arjun Das,customer676@example.com,Hyderabad,Retail Store,Home & Kitchen,Desk Lamp,2.0,916.54,0.0,1833.08,1833.08,2025-04
+ORD-00072,2025-04-30,Arjun Das,customer72@example.com,Pune,Mobile App,Sports,Dumbbells,1.0,1639.47,0.1,1639.47,1475.52,2025-04
+ORD-00498,2025-04-30,Vikram Nair,customer498@example.com,Kolkata,Marketplace,Fashion,Backpack,3.0,1400.47,0.0,4201.41,4201.41,2025-04
+ORD-00811,2025-04-30,Kabir Rao,customer811@example.com,Chennai,Website,Electronics,Mouse,3.0,769.19,0.0,2307.57,2307.57,2025-04
+ORD-00823,2025-04-30,Sana Singh,customer823@example.com,Kolkata,Marketplace,Home & Kitchen,Bottle,2.0,431.23,0.15,862.46,733.09,2025-04
+ORD-00159,2025-05-01,Meera Kumar,customer159@example.com,Chennai,Marketplace,Fashion,Backpack,2.0,1376.38,0.15,2752.76,2339.85,2025-05
+ORD-00251,2025-05-01,Isha Reddy,customer251@example.com,Chennai,Marketplace,Electronics,Mouse,1.0,712.4,0.05,712.4,676.78,2025-05
+ORD-00282,2025-05-01,Vikram Nair,customer282@example.com,Pune,Mobile App,Electronics,Headphones,4.0,1958.67,0.15,7834.68,6659.48,2025-05
+ORD-00917,2025-05-01,Aarav Sharma,customer917@example.com,Delhi,Marketplace,Books,Mystery Novel,2.0,387.74,0.0,775.48,775.48,2025-05
+ORD-00080,2025-05-02,Rohan Patel,customer80@example.com,Kolkata,Mobile App,Electronics,USB-C Hub,2.0,1909.42,0.1,3818.84,3436.96,2025-05
+ORD-00711,2025-05-02,Sana Singh,customer711@example.com,Delhi,Mobile App,Fashion,Backpack,4.0,1369.79,0.15,5479.16,4657.29,2025-05
+ORD-00092,2025-05-03,Isha Reddy,customer92@example.com,Pune,Mobile App,Sports,Resistance Band,4.0,622.86,0.15,2491.44,2117.72,2025-05
+ORD-00363,2025-05-03,Rohan Patel,customer363@example.com,Hyderabad,Retail Store,Books,Data Analytics 101,1.0,538.17,0.05,538.17,511.26,2025-05
+ORD-00300,2025-05-05,Ananya Gupta,customer300@example.com,Hyderabad,Website,Home & Kitchen,Bottle,5.0,402.04,0.05,2010.2,1909.69,2025-05
+ORD-00317,2025-05-05,Vikram Nair,customer317@example.com,Kolkata,Retail Store,Home & Kitchen,Desk Lamp,3.0,928.8,0.0,2786.4,2786.4,2025-05
+ORD-00439,2025-05-05,Ananya Gupta,customer439@example.com,Mumbai,Marketplace,Fashion,Backpack,3.0,1259.25,0.15,3777.75,3211.09,2025-05
+ORD-00843,2025-05-05,Meera Kumar,customer843@example.com,Chennai,Mobile App,Electronics,Headphones,3.0,1929.17,0.05,5787.51,5498.13,2025-05
+ORD-00844,2025-05-05,Ananya Gupta,customer844@example.com,Chennai,Website,Home & Kitchen,Bottle,1.0,388.36,0.1,388.36,349.52,2025-05
+ORD-00089,2025-05-06,Aarav Sharma,customer89@example.com,Hyderabad,Marketplace,Books,SQL Basics,4.0,654.55,0.15,2618.2,2225.47,2025-05
+ORD-00534,2025-05-06,Ananya Gupta,customer534@example.com,Pune,Website,Home & Kitchen,Desk Lamp,1.0,804.6,0.05,804.6,764.37,2025-05
+ORD-00272,2025-05-07,Kabir Rao,customer272@example.com,Delhi,Marketplace,Home & Kitchen,Desk Lamp,2.0,783.54,0.05,1567.08,1488.73,2025-05
+ORD-00962,2025-05-07,Ananya Gupta,customer962@example.com,Jaipur,Retail Store,Fashion,T-Shirt,4.0,599.68,0.1,2398.72,2158.85,2025-05
+ORD-00985,2025-05-07,Diya Verma,customer985@example.com,Mumbai,Mobile App,Home & Kitchen,Bottle,2.0,425.92,0.1,851.84,766.66,2025-05
+ORD-00618,2025-05-08,Diya Verma,customer618@example.com,Kolkata,Retail Store,Fashion,Backpack,3.0,1428.25,0.1,4284.75,3856.28,2025-05
+ORD-00095,2025-05-09,Arjun Das,customer95@example.com,Chennai,Retail Store,Fashion,Backpack,4.0,1293.87,0.0,5175.48,5175.48,2025-05
+ORD-00584,2025-05-09,Ananya Gupta,customer584@example.com,Hyderabad,Marketplace,Fashion,T-Shirt,2.0,529.26,0.15,1058.52,899.74,2025-05
+ORD-00088,2025-05-10,Rohan Patel,customer88@example.com,Jaipur,Marketplace,Home & Kitchen,Bottle,5.0,413.3,0.15,2066.5,1756.52,2025-05
+ORD-00586,2025-05-10,Kabir Rao,customer586@example.com,Mumbai,Retail Store,Sports,Resistance Band,5.0,720.18,0.1,3600.9,3240.81,2025-05
+ORD-00719,2025-05-10,Sana Singh,customer719@example.com,Mumbai,Retail Store,Home & Kitchen,Desk Lamp,2.0,950.05,0.0,1900.1,1900.1,2025-05
+ORD-00786,2025-05-10,Isha Reddy,customer786@example.com,Jaipur,Website,Sports,Yoga Mat,5.0,802.53,0.05,4012.65,3812.02,2025-05
+ORD-00405,2025-05-11,Sana Singh,customer405@example.com,Kolkata,Mobile App,Sports,Yoga Mat,2.0,830.0,0.0,1660.0,1660.0,2025-05
+ORD-00884,2025-05-11,Vikram Nair,customer884@example.com,Bengaluru,Retail Store,Books,SQL Basics,1.0,627.21,0.15,627.21,533.13,2025-05
+ORD-00949,2025-05-11,Diya Verma,customer949@example.com,Kolkata,Mobile App,Sports,Yoga Mat,1.0,862.67,0.05,862.67,819.54,2025-05
+ORD-00060,2025-05-12,Isha Reddy,customer60@example.com,Delhi,Mobile App,Books,SQL Basics,5.0,544.7,0.1,2723.5,2451.15,2025-05
+ORD-00348,2025-05-12,Isha Reddy,customer348@example.com,Kolkata,Marketplace,Sports,Yoga Mat,4.0,761.86,0.0,3047.44,3047.44,2025-05
+ORD-00370,2025-05-12,Sana Singh,customer370@example.com,Delhi,Website,Electronics,Mouse,1.0,868.46,0.0,868.46,868.46,2025-05
+ORD-00457,2025-05-12,Rohan Patel,customer457@example.com,Jaipur,Mobile App,Electronics,USB-C Hub,5.0,2099.0,0.0,10495.0,10495.0,2025-05
+ORD-00689,2025-05-12,Kabir Rao,customer689@example.com,Kolkata,Marketplace,Sports,Yoga Mat,5.0,745.64,0.0,3728.2,3728.2,2025-05
+ORD-00789,2025-05-12,Vikram Nair,customer789@example.com,Mumbai,Website,Home & Kitchen,Desk Lamp,5.0,838.26,0.0,4191.3,4191.3,2025-05
+ORD-00339,2025-05-13,Vikram Nair,customer339@example.com,Mumbai,Marketplace,Home & Kitchen,Desk Lamp,5.0,1029.19,0.05,5145.95,4888.65,2025-05
+ORD-00166,2025-05-14,Rohan Patel,customer166@example.com,Hyderabad,Mobile App,Electronics,USB-C Hub,3.0,1729.98,0.1,5189.94,4670.95,2025-05
+ORD-00366,2025-05-14,Aarav Sharma,customer366@example.com,Hyderabad,Retail Store,Home & Kitchen,Bottle,1.0,343.94,0.05,343.94,326.74,2025-05
+ORD-00513,2025-05-14,Vikram Nair,customer513@example.com,Chennai,Marketplace,Books,Data Analytics 101,2.0,471.45,0.1,942.9,848.61,2025-05
+ORD-00020,2025-05-15,Rohan Patel,customer20@example.com,Jaipur,Marketplace,Home & Kitchen,Bottle,5.0,386.37,0.0,1931.85,1931.85,2025-05
+ORD-00635,2025-05-15,Vikram Nair,customer635@example.com,Pune,Website,Sports,Dumbbells,2.0,1277.32,0.05,2554.64,2426.91,2025-05
+ORD-00976,2025-05-15,Aarav Sharma,customer976@example.com,Mumbai,Retail Store,Books,Mystery Novel,4.0,329.42,0.1,1317.68,1185.91,2025-05
+ORD-00519,2025-05-16,Kabir Rao,customer519@example.com,Hyderabad,Marketplace,Electronics,Mouse,3.0,712.85,0.15,2138.55,1817.77,2025-05
+ORD-00544,2025-05-16,Meera Kumar,customer544@example.com,Hyderabad,Retail Store,Sports,Resistance Band,3.0,658.04,0.0,1974.12,1974.12,2025-05
+ORD-00712,2025-05-16,Meera Kumar,customer712@example.com,Jaipur,Unknown Channel,Sports,Yoga Mat,5.0,903.85,0.15,4519.25,3841.36,2025-05
+ORD-00027,2025-05-17,Aarav Sharma,customer27@example.com,Kolkata,Mobile App,Electronics,USB-C Hub,5.0,1922.62,0.1,9613.1,8651.79,2025-05
+ORD-00229,2025-05-17,Isha Reddy,customer229@example.com,Pune,Retail Store,Home & Kitchen,Mixer,5.0,2167.38,0.0,10836.9,10836.9,2025-05
+ORD-00346,2025-05-17,Aarav Sharma,customer346@example.com,Pune,Retail Store,Books,Data Analytics 101,4.0,492.28,0.1,1969.12,1772.21,2025-05
+ORD-00687,2025-05-17,Sana Singh,customer687@example.com,Bengaluru,Marketplace,Fashion,Sneakers,4.0,2168.27,0.0,8673.08,8673.08,2025-05
+ORD-00054,2025-05-18,Ananya Gupta,customer54@example.com,Hyderabad,Mobile App,Fashion,Backpack,4.0,1190.62,0.1,4762.48,4286.23,2025-05
+ORD-00313,2025-05-18,Meera Kumar,customer313@example.com,Hyderabad,Website,Books,Mystery Novel,1.0,393.13,0.0,393.13,393.13,2025-05
+ORD-00548,2025-05-18,Aarav Sharma,customer548@example.com,Kolkata,Marketplace,Sports,Yoga Mat,1.0,679.44,0.0,679.44,679.44,2025-05
+ORD-00644,2025-05-18,Meera Kumar,customer644@example.com,Pune,Website,Sports,Dumbbells,2.0,1328.71,0.1,2657.42,2391.68,2025-05
+ORD-00740,2025-05-18,Vikram Nair,customer740@example.com,Bengaluru,Mobile App,Books,Mystery Novel,5.0,366.59,0.05,1832.95,1741.3,2025-05
+ORD-00909,2025-05-18,Diya Verma,customer909@example.com,Bengaluru,Mobile App,Electronics,Mouse,1.0,767.25,0.15,767.25,652.16,2025-05
+ORD-00952,2025-05-18,Vikram Nair,customer952@example.com,Hyderabad,Marketplace,Home & Kitchen,Bottle,1.0,395.6,0.0,395.6,395.6,2025-05
+ORD-00149,2025-05-19,Arjun Das,customer149@example.com,Hyderabad,Retail Store,Sports,Yoga Mat,5.0,861.01,0.1,4305.05,3874.54,2025-05
+ORD-00787,2025-05-19,Vikram Nair,customer787@example.com,Mumbai,Mobile App,Books,Data Analytics 101,5.0,468.49,0.1,2342.45,2108.2,2025-05
+ORD-00332,2025-05-20,Diya Verma,customer332@example.com,Bengaluru,Website,Home & Kitchen,Desk Lamp,4.0,997.59,0.0,3990.36,3990.36,2025-05
+ORD-00082,2025-05-21,Aarav Sharma,customer82@example.com,Kolkata,Mobile App,Fashion,T-Shirt,5.0,556.58,0.1,2782.9,2504.61,2025-05
+ORD-00824,2025-05-21,Diya Verma,customer824@example.com,Jaipur,Retail Store,Books,SQL Basics,1.0,511.32,0.0,511.32,511.32,2025-05
+ORD-00076,2025-05-22,Rohan Patel,customer76@example.com,Bengaluru,Marketplace,Fashion,Backpack,5.0,1460.17,0.0,7300.85,7300.85,2025-05
+ORD-00263,2025-05-22,Kabir Rao,customer263@example.com,Delhi,Retail Store,Sports,Resistance Band,5.0,628.02,0.0,3140.1,3140.1,2025-05
+ORD-00720,2025-05-22,Kabir Rao,customer720@example.com,Chennai,Retail Store,Electronics,USB-C Hub,4.0,1935.36,0.05,7741.44,7354.37,2025-05
+ORD-00779,2025-05-22,Ananya Gupta,customer779@example.com,Bengaluru,Website,Home & Kitchen,Mixer,3.0,2754.28,0.1,8262.84,7436.56,2025-05
+ORD-00171,2025-05-23,Ananya Gupta,customer171@example.com,Jaipur,Retail Store,Home & Kitchen,Desk Lamp,4.0,891.55,0.0,3566.2,3566.2,2025-05
+ORD-00537,2025-05-23,Rohan Patel,customer537@example.com,Jaipur,Mobile App,Books,Mystery Novel,1.0,314.02,0.0,314.02,314.02,2025-05
+ORD-00657,2025-05-24,Vikram Nair,customer657@example.com,Chennai,Website,Books,Data Analytics 101,3.0,442.07,0.0,1326.21,1326.21,2025-05
+ORD-00384,2025-05-25,Sana Singh,customer384@example.com,Kolkata,Marketplace,Sports,Resistance Band,1.0,779.11,0.0,779.11,779.11,2025-05
+ORD-00546,2025-05-25,Sana Singh,customer546@example.com,Kolkata,Website,Sports,Dumbbells,2.0,1336.41,0.0,2672.82,2672.82,2025-05
+ORD-00728,2025-05-26,Aarav Sharma,customer728@example.com,Kolkata,Marketplace,Sports,Yoga Mat,2.0,904.95,0.0,1809.9,1809.9,2025-05
+ORD-00888,2025-05-26,Isha Reddy,customer888@example.com,Chennai,Website,Electronics,Mouse,4.0,906.48,0.15,3625.92,3082.03,2025-05
+ORD-00929,2025-05-26,Sana Singh,customer929@example.com,Pune,Website,Fashion,T-Shirt,4.0,551.96,0.1,2207.84,1987.06,2025-05
+ORD-00940,2025-05-26,Ananya Gupta,customer940@example.com,Bengaluru,Marketplace,Sports,Dumbbells,2.0,1691.98,0.0,3383.96,3383.96,2025-05
+ORD-00170,2025-05-27,Isha Reddy,customer170@example.com,Delhi,Retail Store,Sports,Dumbbells,4.0,1369.64,0.0,5478.56,5478.56,2025-05
+ORD-00659,2025-05-27,Kabir Rao,customer659@example.com,Hyderabad,Mobile App,Fashion,T-Shirt,1.0,653.94,0.0,653.94,653.94,2025-05
+ORD-00892,2025-05-27,Isha Reddy,customer892@example.com,Chennai,Mobile App,Books,Data Analytics 101,3.0,522.69,0.1,1568.07,1411.26,2025-05
+ORD-00937,2025-05-27,Sana Singh,customer937@example.com,Bengaluru,Marketplace,Fashion,Sneakers,3.0,2831.91,0.0,8495.73,8495.73,2025-05
+ORD-00950,2025-05-27,Rohan Patel,customer950@example.com,Jaipur,Marketplace,Home & Kitchen,Mixer,1.0,2394.37,0.0,2394.37,2394.37,2025-05
+ORD-00215,2025-05-29,Kabir Rao,customer215@example.com,Mumbai,Mobile App,Fashion,Sneakers,4.0,2790.45,0.15,11161.8,9487.53,2025-05
+ORD-00319,2025-05-30,Meera Kumar,customer319@example.com,Jaipur,Website,Sports,Resistance Band,2.0,642.51,0.1,1285.02,1156.52,2025-05
+ORD-00461,2025-05-30,Ananya Gupta,customer461@example.com,Pune,Marketplace,Home & Kitchen,Desk Lamp,4.0,970.74,0.1,3882.96,3494.66,2025-05
+ORD-00956,2025-05-31,Arjun Das,customer956@example.com,Pune,Website,Sports,Resistance Band,4.0,724.91,0.05,2899.64,2754.66,2025-05
+ORD-00102,2025-06-01,Kabir Rao,customer102@example.com,Pune,Mobile App,Fashion,Sneakers,4.0,2675.55,0.05,10702.2,10167.09,2025-06
+ORD-00306,2025-06-02,Isha Reddy,customer306@example.com,Mumbai,Website,Books,Mystery Novel,4.0,348.68,0.0,1394.72,1394.72,2025-06
+ORD-00632,2025-06-03,Aarav Sharma,customer632@example.com,Hyderabad,Retail Store,Books,Mystery Novel,1.0,312.98,0.15,312.98,266.03,2025-06
+ORD-00981,2025-06-04,Rohan Patel,customer981@example.com,Mumbai,Website,Sports,Resistance Band,2.0,718.31,0.1,1436.62,1292.96,2025-06
+ORD-00758,2025-06-05,Arjun Das,customer758@example.com,Bengaluru,Website,Sports,Yoga Mat,2.0,799.95,0.0,1599.9,1599.9,2025-06
+ORD-00007,2025-06-07,Meera Kumar,customer7@example.com,Hyderabad,Mobile App,Books,SQL Basics,4.0,555.57,0.15,2222.28,1888.94,2025-06
+ORD-00103,2025-06-07,Rohan Patel,customer103@example.com,Mumbai,Marketplace,Sports,Dumbbells,3.0,1391.28,0.15,4173.84,3547.76,2025-06
+ORD-00562,2025-06-07,Arjun Das,customer562@example.com,Mumbai,Marketplace,Sports,Dumbbells,3.0,1595.41,0.15,4786.23,4068.3,2025-06
+ORD-00794,2025-06-07,Isha Reddy,customer794@example.com,Chennai,Website,Home & Kitchen,Bottle,2.0,349.93,0.0,699.86,699.86,2025-06
+ORD-00260,2025-06-08,Aarav Sharma,customer260@example.com,Delhi,Retail Store,Books,Data Analytics 101,1.0,449.77,0.05,449.77,427.28,2025-06
+ORD-00623,2025-06-08,Sana Singh,customer623@example.com,Pune,Website,Electronics,Mouse,4.0,884.35,0.0,3537.4,3537.4,2025-06
+ORD-00918,2025-06-08,Rohan Patel,customer918@example.com,Chennai,Mobile App,Fashion,T-Shirt,5.0,536.01,0.0,2680.05,2680.05,2025-06
+ORD-00946,2025-06-08,Kabir Rao,customer946@example.com,Pune,Mobile App,Books,SQL Basics,1.0,597.37,0.0,597.37,597.37,2025-06
+ORD-00218,2025-06-09,Ananya Gupta,customer218@example.com,Kolkata,Mobile App,Electronics,Headphones,4.0,2233.66,0.15,8934.64,7594.44,2025-06
+ORD-00367,2025-06-10,Sana Singh,customer367@example.com,Kolkata,Website,Sports,Yoga Mat,4.0,717.21,0.15,2868.84,2438.51,2025-06
+ORD-00572,2025-06-10,Sana Singh,customer572@example.com,Hyderabad,Mobile App,Sports,Resistance Band,1.0,645.17,0.05,645.17,612.91,2025-06
+ORD-00610,2025-06-10,Sana Singh,customer610@example.com,Mumbai,Website,Books,SQL Basics,4.0,544.87,0.1,2179.48,1961.53,2025-06
+ORD-00771,2025-06-10,Aarav Sharma,customer771@example.com,Bengaluru,Marketplace,Home & Kitchen,Bottle,3.0,422.86,0.0,1268.58,1268.58,2025-06
+ORD-00665,2025-06-11,Kabir Rao,customer665@example.com,Mumbai,Mobile App,Home & Kitchen,Bottle,1.0,452.69,0.1,452.69,407.42,2025-06
+ORD-00792,2025-06-11,Ananya Gupta,customer792@example.com,Hyderabad,Mobile App,Electronics,USB-C Hub,3.0,1957.6,0.15,5872.8,4991.88,2025-06
+ORD-00992,2025-06-11,Isha Reddy,customer992@example.com,Bengaluru,Mobile App,Books,Data Analytics 101,4.0,523.27,0.15,2093.08,1779.12,2025-06
+ORD-00264,2025-06-12,Rohan Patel,customer264@example.com,Pune,Website,Sports,Dumbbells,2.0,1311.28,0.15,2622.56,2229.18,2025-06
+ORD-00645,2025-06-12,Aarav Sharma,customer645@example.com,Bengaluru,Website,Books,SQL Basics,5.0,556.6,0.1,2783.0,2504.7,2025-06
+ORD-00576,2025-06-13,Rohan Patel,customer576@example.com,Jaipur,Mobile App,Fashion,T-Shirt,3.0,631.16,0.0,1893.48,1893.48,2025-06
+ORD-00700,2025-06-13,Sana Singh,customer700@example.com,Kolkata,Marketplace,Sports,Resistance Band,1.0,680.15,0.0,680.15,680.15,2025-06
+ORD-00772,2025-06-13,Kabir Rao,customer772@example.com,Mumbai,Mobile App,Sports,Resistance Band,2.0,622.68,0.05,1245.36,1183.09,2025-06
+ORD-00273,2025-06-14,Vikram Nair,customer273@example.com,Chennai,Retail Store,Books,Data Analytics 101,4.0,475.51,0.15,1902.04,1616.73,2025-06
+ORD-00626,2025-06-14,Meera Kumar,customer626@example.com,Jaipur,Mobile App,Books,Data Analytics 101,5.0,527.93,0.05,2639.65,2507.67,2025-06
+ORD-00631,2025-06-14,Isha Reddy,customer631@example.com,Delhi,Mobile App,Sports,Dumbbells,5.0,1701.04,0.0,8505.2,8505.2,2025-06
+ORD-00128,2025-06-15,Rohan Patel,customer128@example.com,Chennai,Marketplace,Fashion,T-Shirt,3.0,645.54,0.0,1936.62,1936.62,2025-06
+ORD-00609,2025-06-15,Meera Kumar,customer609@example.com,Delhi,Retail Store,Books,SQL Basics,5.0,599.56,0.15,2997.8,2548.13,2025-06
+ORD-00971,2025-06-15,Sana Singh,customer971@example.com,Bengaluru,Mobile App,Electronics,Mouse,5.0,899.2,0.05,4496.0,4271.2,2025-06
+ORD-00302,2025-06-16,Meera Kumar,customer302@example.com,Chennai,Mobile App,Books,Mystery Novel,1.0,371.45,0.05,371.45,352.88,2025-06
+ORD-00835,2025-06-16,Rohan Patel,customer835@example.com,Mumbai,Website,Electronics,USB-C Hub,1.0,1682.88,0.0,1682.88,1682.88,2025-06
+ORD-00402,2025-06-17,Rohan Patel,customer402@example.com,Jaipur,Website,Sports,Yoga Mat,4.0,778.91,0.05,3115.64,2959.86,2025-06
+ORD-00445,2025-06-17,Meera Kumar,customer445@example.com,Delhi,Retail Store,Sports,Dumbbells,4.0,1675.05,0.1,6700.2,6030.18,2025-06
+ORD-00129,2025-06-19,Aarav Sharma,customer129@example.com,Kolkata,Marketplace,Fashion,T-Shirt,2.0,678.95,0.1,1357.9,1222.11,2025-06
+ORD-00520,2025-06-19,Ananya Gupta,customer520@example.com,Kolkata,Marketplace,Fashion,T-Shirt,3.0,612.05,0.1,1836.15,1652.54,2025-06
+ORD-00738,2025-06-19,Aarav Sharma,customer738@example.com,Kolkata,Marketplace,Sports,Dumbbells,2.0,1414.93,0.0,2829.86,2829.86,2025-06
+ORD-00830,2025-06-19,Isha Reddy,customer830@example.com,Bengaluru,Mobile App,Books,Data Analytics 101,1.0,548.02,0.0,548.02,548.02,2025-06
+ORD-00998,2025-06-20,Isha Reddy,customer998@example.com,Chennai,Website,Books,Mystery Novel,1.0,387.95,0.0,387.95,387.95,2025-06
+ORD-00144,2025-06-21,Meera Kumar,customer144@example.com,Bengaluru,Marketplace,Sports,Yoga Mat,1.0,734.24,0.0,734.24,734.24,2025-06
+ORD-00299,2025-06-21,Meera Kumar,customer299@example.com,Hyderabad,Retail Store,Fashion,Sneakers,4.0,2181.9,0.1,8727.6,7854.84,2025-06
+ORD-00656,2025-06-21,Sana Singh,customer656@example.com,Kolkata,Retail Store,Fashion,Sneakers,1.0,2520.43,0.15,2520.43,2142.37,2025-06
+ORD-00533,2025-06-22,Aarav Sharma,customer533@example.com,Mumbai,Mobile App,Fashion,Backpack,1.0,1467.51,0.05,1467.51,1394.13,2025-06
+ORD-00874,2025-06-22,Arjun Das,customer874@example.com,Jaipur,Marketplace,Electronics,Mouse,1.0,775.8,0.0,775.8,775.8,2025-06
+ORD-00975,2025-06-22,Kabir Rao,customer975@example.com,Mumbai,Marketplace,Books,Mystery Novel,4.0,300.02,0.1,1200.08,1080.07,2025-06
+ORD-00209,2025-06-23,Diya Verma,customer209@example.com,Hyderabad,Mobile App,Sports,Yoga Mat,4.0,773.9,0.0,3095.6,3095.6,2025-06
+ORD-00210,2025-06-23,Ananya Gupta,customer210@example.com,Bengaluru,Marketplace,Fashion,Sneakers,2.0,2369.75,0.15,4739.5,4028.58,2025-06
+ORD-00028,2025-06-25,Sana Singh,customer28@example.com,Kolkata,Mobile App,Sports,Dumbbells,5.0,1368.08,0.0,6840.4,6840.4,2025-06
+ORD-00184,2025-06-25,Vikram Nair,customer184@example.com,Delhi,Mobile App,Home & Kitchen,Mixer,3.0,2396.69,0.0,7190.07,7190.07,2025-06
+ORD-00205,2025-06-25,Aarav Sharma,customer205@example.com,Chennai,Retail Store,Books,Mystery Novel,4.0,313.77,0.0,1255.08,1255.08,2025-06
+ORD-00625,2025-06-25,Sana Singh,customer625@example.com,Pune,Marketplace,Home & Kitchen,Desk Lamp,3.0,779.41,0.0,2338.23,2338.23,2025-06
+ORD-00189,2025-06-26,Vikram Nair,customer189@example.com,Unknown,Marketplace,Electronics,USB-C Hub,1.0,1865.11,0.15,1865.11,1585.34,2025-06
+ORD-00224,2025-06-26,Diya Verma,customer224@example.com,Jaipur,Retail Store,Books,Data Analytics 101,4.0,502.93,0.1,2011.72,1810.55,2025-06
+ORD-00378,2025-06-26,Arjun Das,customer378@example.com,Pune,Mobile App,Sports,Yoga Mat,5.0,903.28,0.0,4516.4,4516.4,2025-06
+ORD-00114,2025-06-28,Isha Reddy,customer114@example.com,Chennai,Retail Store,Home & Kitchen,Mixer,1.0,2326.29,0.15,2326.29,1977.35,2025-06
+ORD-00220,2025-06-28,Kabir Rao,customer220@example.com,Hyderabad,Retail Store,Electronics,USB-C Hub,3.0,1647.87,0.1,4943.61,4449.25,2025-06
+ORD-00230,2025-06-28,Sana Singh,customer230@example.com,Hyderabad,Website,Sports,Dumbbells,4.0,1642.43,0.1,6569.72,5912.75,2025-06
+ORD-00021,2025-06-29,Ananya Gupta,customer21@example.com,Kolkata,Retail Store,Electronics,USB-C Hub,4.0,1919.13,0.15,7676.52,6525.04,2025-06
+ORD-00081,2025-06-29,Kabir Rao,customer81@example.com,Bengaluru,Website,Sports,Yoga Mat,3.0,900.8,0.0,2702.4,2702.4,2025-06
+ORD-00121,2025-06-29,Kabir Rao,customer121@example.com,Kolkata,Mobile App,Fashion,Backpack,4.0,1348.85,0.0,5395.4,5395.4,2025-06
+ORD-00320,2025-06-30,Ananya Gupta,customer320@example.com,Kolkata,Retail Store,Sports,Resistance Band,5.0,738.86,0.0,3694.3,3694.3,2025-06
+ORD-00497,2025-06-30,Kabir Rao,customer497@example.com,Jaipur,Website,Electronics,USB-C Hub,3.0,1667.2,0.1,5001.6,4501.44,2025-06
+ORD-00561,2025-06-30,Isha Reddy,customer561@example.com,Mumbai,Marketplace,Sports,Resistance Band,1.0,597.63,0.1,597.63,537.87,2025-06
+ORD-00857,2025-06-30,Arjun Das,customer857@example.com,Hyderabad,Marketplace,Electronics,Headphones,4.0,1892.96,0.15,7571.84,6436.06,2025-06
+ORD-00112,2025-07-01,Ananya Gupta,customer112@example.com,Chennai,Marketplace,Books,SQL Basics,2.0,526.66,0.15,1053.32,895.32,2025-07
+ORD-00325,2025-07-02,Kabir Rao,customer325@example.com,Delhi,Mobile App,Electronics,USB-C Hub,5.0,1732.65,0.05,8663.25,8230.09,2025-07
+ORD-00417,2025-07-02,Arjun Das,customer417@example.com,Bengaluru,Website,Sports,Yoga Mat,3.0,824.96,0.0,2474.88,2474.88,2025-07
+ORD-00429,2025-07-02,Sana Singh,customer429@example.com,Pune,Website,Electronics,Headphones,2.0,2079.77,0.15,4159.54,3535.61,2025-07
+ORD-00462,2025-07-02,Isha Reddy,customer462@example.com,Pune,Retail Store,Books,SQL Basics,2.0,628.56,0.15,1257.12,1068.55,2025-07
+ORD-00871,2025-07-04,Diya Verma,customer871@example.com,Delhi,Website,Fashion,Sneakers,2.0,2804.58,0.0,5609.16,5609.16,2025-07
+ORD-00783,2025-07-06,Rohan Patel,customer783@example.com,Jaipur,Mobile App,Home & Kitchen,Bottle,1.0,392.24,0.05,392.24,372.63,2025-07
+ORD-00831,2025-07-06,Kabir Rao,customer831@example.com,Jaipur,Marketplace,Home & Kitchen,Mixer,4.0,2400.23,0.15,9600.92,8160.78,2025-07
+ORD-00872,2025-07-07,Sana Singh,customer872@example.com,Hyderabad,Mobile App,Books,Data Analytics 101,3.0,434.29,0.15,1302.87,1107.44,2025-07
+ORD-00177,2025-07-08,Ananya Gupta,customer177@example.com,Chennai,Website,Fashion,Backpack,2.0,1115.65,0.0,2231.3,2231.3,2025-07
+ORD-00549,2025-07-08,Isha Reddy,customer549@example.com,Jaipur,Website,Sports,Resistance Band,5.0,656.81,0.0,3284.05,3284.05,2025-07
+ORD-00242,2025-07-09,Aarav Sharma,customer242@example.com,Delhi,Website,Fashion,Sneakers,2.0,2766.78,0.05,5533.56,5256.88,2025-07
+ORD-00506,2025-07-09,Diya Verma,customer506@example.com,Kolkata,Website,Home & Kitchen,Bottle,5.0,455.76,0.0,2278.8,2278.8,2025-07
+ORD-00507,2025-07-09,Sana Singh,customer507@example.com,Delhi,Mobile App,Sports,Yoga Mat,5.0,869.35,0.0,4346.75,4346.75,2025-07
+ORD-00642,2025-07-09,Ananya Gupta,customer642@example.com,Delhi,Retail Store,Fashion,Backpack,2.0,1273.16,0.0,2546.32,2546.32,2025-07
+ORD-00748,2025-07-09,Vikram Nair,customer748@example.com,Chennai,Mobile App,Books,SQL Basics,3.0,513.64,0.1,1540.92,1386.83,2025-07
+ORD-00803,2025-07-09,Diya Verma,customer803@example.com,Pune,Website,Fashion,T-Shirt,5.0,686.89,0.0,3434.45,3434.45,2025-07
+ORD-00841,2025-07-09,Kabir Rao,customer841@example.com,Chennai,Marketplace,Home & Kitchen,Mixer,1.0,2441.89,0.1,2441.89,2197.7,2025-07
+ORD-00216,2025-07-10,Arjun Das,customer216@example.com,Jaipur,Mobile App,Sports,Dumbbells,4.0,1646.27,0.0,6585.08,6585.08,2025-07
+ORD-00336,2025-07-10,Kabir Rao,customer336@example.com,Kolkata,Marketplace,Home & Kitchen,Mixer,2.0,2349.61,0.05,4699.22,4464.26,2025-07
+ORD-00418,2025-07-10,Isha Reddy,customer418@example.com,Jaipur,Mobile App,Fashion,T-Shirt,4.0,573.83,0.05,2295.32,2180.55,2025-07
+ORD-00061,2025-07-11,Arjun Das,customer61@example.com,Bengaluru,Retail Store,Home & Kitchen,Mixer,1.0,2499.73,0.0,2499.73,2499.73,2025-07
+ORD-00372,2025-07-11,Rohan Patel,customer372@example.com,Chennai,Retail Store,Home & Kitchen,Mixer,2.0,2623.17,0.0,5246.34,5246.34,2025-07
+ORD-00476,2025-07-11,Vikram Nair,customer476@example.com,Mumbai,Website,Books,Mystery Novel,1.0,360.31,0.1,360.31,324.28,2025-07
+ORD-00033,2025-07-13,Meera Kumar,customer33@example.com,Bengaluru,Website,Home & Kitchen,Mixer,1.0,2703.28,0.1,2703.28,2432.95,2025-07
+ORD-00065,2025-07-14,Sana Singh,customer65@example.com,Kolkata,Marketplace,Fashion,T-Shirt,4.0,553.91,0.05,2215.64,2104.86,2025-07
+ORD-00278,2025-07-14,Diya Verma,customer278@example.com,Mumbai,Website,Fashion,T-Shirt,4.0,658.3,0.0,2633.2,2633.2,2025-07
+ORD-00303,2025-07-14,Aarav Sharma,customer303@example.com,Delhi,Mobile App,Books,Mystery Novel,4.0,382.85,0.15,1531.4,1301.69,2025-07
+ORD-00441,2025-07-14,Arjun Das,customer441@example.com,Kolkata,Retail Store,Home & Kitchen,Bottle,1.0,424.67,0.1,424.67,382.2,2025-07
+ORD-00630,2025-07-14,Ananya Gupta,customer630@example.com,Pune,Mobile App,Fashion,Backpack,2.0,1404.65,0.0,2809.3,2809.3,2025-07
+ORD-00660,2025-07-14,Aarav Sharma,customer660@example.com,Hyderabad,Website,Electronics,USB-C Hub,3.0,2174.4,0.0,6523.2,6523.2,2025-07
+ORD-00038,2025-07-15,Isha Reddy,customer38@example.com,Kolkata,Retail Store,Fashion,Backpack,5.0,1108.49,0.0,5542.45,5542.45,2025-07
+ORD-00132,2025-07-16,Diya Verma,customer132@example.com,Jaipur,Website,Sports,Dumbbells,2.0,1568.65,0.05,3137.3,2980.44,2025-07
+ORD-00265,2025-07-16,Aarav Sharma,customer265@example.com,Jaipur,Marketplace,Fashion,Sneakers,3.0,2580.17,0.0,7740.51,7740.51,2025-07
+ORD-00691,2025-07-17,Kabir Rao,customer691@example.com,Delhi,Website,Sports,Yoga Mat,5.0,749.54,0.0,3747.7,3747.7,2025-07
+ORD-00746,2025-07-17,Meera Kumar,customer746@example.com,Bengaluru,Mobile App,Electronics,Mouse,4.0,702.87,0.15,2811.48,2389.76,2025-07
+ORD-00747,2025-07-17,Arjun Das,customer747@example.com,Chennai,Marketplace,Sports,Dumbbells,1.0,1464.76,0.0,1464.76,1464.76,2025-07
+ORD-00853,2025-07-17,Meera Kumar,customer853@example.com,Delhi,Website,Books,SQL Basics,2.0,651.94,0.0,1303.88,1303.88,2025-07
+ORD-00616,2025-07-18,Aarav Sharma,customer616@example.com,Bengaluru,Mobile App,Sports,Dumbbells,3.0,1425.11,0.0,4275.33,4275.33,2025-07
+ORD-00837,2025-07-18,Kabir Rao,customer837@example.com,Jaipur,Retail Store,Fashion,T-Shirt,3.0,680.31,0.1,2040.93,1836.84,2025-07
+ORD-00101,2025-07-19,Vikram Nair,customer101@example.com,Mumbai,Mobile App,Fashion,T-Shirt,5.0,677.11,0.0,3385.55,3385.55,2025-07
+ORD-00271,2025-07-19,Isha Reddy,customer271@example.com,Pune,Retail Store,Fashion,T-Shirt,2.0,602.94,0.05,1205.88,1145.59,2025-07
+ORD-00330,2025-07-19,Kabir Rao,customer330@example.com,Hyderabad,Website,Electronics,USB-C Hub,1.0,1941.51,0.0,1941.51,1941.51,2025-07
+ORD-00153,2025-07-20,Vikram Nair,customer153@example.com,Chennai,Mobile App,Fashion,Sneakers,2.0,2507.01,0.15,5014.02,4261.92,2025-07
+ORD-00323,2025-07-20,Arjun Das,customer323@example.com,Jaipur,Website,Books,Data Analytics 101,3.0,477.5,0.0,1432.5,1432.5,2025-07
+ORD-00459,2025-07-20,Meera Kumar,customer459@example.com,Kolkata,Website,Fashion,Backpack,1.0,1272.96,0.05,1272.96,1209.31,2025-07
+ORD-00538,2025-07-20,Rohan Patel,customer538@example.com,Kolkata,Marketplace,Books,SQL Basics,5.0,529.69,0.0,2648.45,2648.45,2025-07
+ORD-00688,2025-07-20,Rohan Patel,customer688@example.com,Delhi,Retail Store,Electronics,Headphones,4.0,1874.9,0.0,7499.6,7499.6,2025-07
+ORD-00850,2025-07-20,Aarav Sharma,customer850@example.com,Pune,Marketplace,Books,Data Analytics 101,5.0,433.14,0.0,2165.7,2165.7,2025-07
+ORD-00233,2025-07-21,Meera Kumar,customer233@example.com,Pune,Marketplace,Fashion,Backpack,5.0,1189.79,0.0,5948.95,5948.95,2025-07
+ORD-00434,2025-07-21,Vikram Nair,customer434@example.com,Mumbai,Website,Sports,Yoga Mat,3.0,725.68,0.0,2177.04,2177.04,2025-07
+ORD-00588,2025-07-21,Ananya Gupta,customer588@example.com,Bengaluru,Retail Store,Electronics,Mouse,1.0,836.41,0.0,836.41,836.41,2025-07
+ORD-00188,2025-07-22,Kabir Rao,customer188@example.com,Hyderabad,Marketplace,Fashion,T-Shirt,3.0,654.66,0.0,1963.98,1963.98,2025-07
+ORD-00994,2025-07-22,Sana Singh,customer994@example.com,Delhi,Mobile App,Books,Mystery Novel,4.0,309.53,0.0,1238.12,1238.12,2025-07
+ORD-00039,2025-07-23,Kabir Rao,customer39@example.com,Delhi,Retail Store,Fashion,Sneakers,1.0,2456.41,0.0,2456.41,2456.41,2025-07
+ORD-00091,2025-07-23,Diya Verma,customer91@example.com,Delhi,Mobile App,Home & Kitchen,Bottle,3.0,351.56,0.0,1054.68,1054.68,2025-07
+ORD-00277,2025-07-23,Diya Verma,customer277@example.com,Delhi,Website,Home & Kitchen,Desk Lamp,4.0,815.83,0.15,3263.32,2773.82,2025-07
+ORD-00460,2025-07-23,Kabir Rao,customer460@example.com,Pune,Website,Books,Mystery Novel,1.0,322.76,0.0,322.76,322.76,2025-07
+ORD-00463,2025-07-23,Isha Reddy,customer463@example.com,Delhi,Retail Store,Sports,Resistance Band,2.0,643.39,0.1,1286.78,1158.1,2025-07
+ORD-00765,2025-07-23,Vikram Nair,customer765@example.com,Pune,Retail Store,Sports,Resistance Band,3.0,683.22,0.0,2049.66,2049.66,2025-07
+ORD-00968,2025-07-23,Kabir Rao,customer968@example.com,Jaipur,Marketplace,Home & Kitchen,Bottle,5.0,388.98,0.15,1944.9,1653.16,2025-07
+ORD-00350,2025-07-24,Aarav Sharma,customer350@example.com,Chennai,Marketplace,Electronics,USB-C Hub,4.0,1733.35,0.0,6933.4,6933.4,2025-07
+ORD-00512,2025-07-24,Arjun Das,customer512@example.com,Delhi,Website,Sports,Resistance Band,3.0,670.4,0.0,2011.2,2011.2,2025-07
+ORD-00806,2025-07-24,Sana Singh,customer806@example.com,Bengaluru,Retail Store,Home & Kitchen,Mixer,3.0,2139.97,0.1,6419.91,5777.92,2025-07
+ORD-00954,2025-07-24,Meera Kumar,customer954@example.com,Chennai,Retail Store,Home & Kitchen,Bottle,4.0,363.93,0.0,1455.72,1455.72,2025-07
+ORD-00161,2025-07-25,Aarav Sharma,customer161@example.com,Kolkata,Retail Store,Sports,Resistance Band,4.0,661.81,0.1,2647.24,2382.52,2025-07
+ORD-00637,2025-07-25,Arjun Das,customer637@example.com,Kolkata,Retail Store,Electronics,USB-C Hub,5.0,1734.96,0.1,8674.8,7807.32,2025-07
+ORD-00621,2025-07-26,Rohan Patel,Missing,Delhi,Marketplace,Books,SQL Basics,4.0,651.98,0.0,2607.92,2607.92,2025-07
+ORD-00897,2025-07-26,Vikram Nair,customer897@example.com,Kolkata,Retail Store,Fashion,Sneakers,2.0,2867.05,0.15,5734.1,4873.99,2025-07
+ORD-00901,2025-07-26,Arjun Das,customer901@example.com,Hyderabad,Marketplace,Home & Kitchen,Mixer,3.0,2803.91,0.0,8411.73,8411.73,2025-07
+ORD-00404,2025-07-27,Vikram Nair,customer404@example.com,Pune,Mobile App,Electronics,USB-C Hub,3.0,1637.91,0.05,4913.73,4668.04,2025-07
+ORD-00535,2025-07-27,Ananya Gupta,customer535@example.com,Pune,Mobile App,Books,Data Analytics 101,5.0,492.59,0.1,2462.95,2216.65,2025-07
+ORD-00605,2025-07-27,Isha Reddy,customer605@example.com,Delhi,Mobile App,Fashion,Backpack,4.0,1383.6,0.15,5534.4,4704.24,2025-07
+ORD-00757,2025-07-27,Ananya Gupta,customer757@example.com,Hyderabad,Marketplace,Home & Kitchen,Mixer,1.0,2202.9,0.0,2202.9,2202.9,2025-07
+ORD-00770,2025-07-29,Kabir Rao,customer770@example.com,Bengaluru,Website,Sports,Resistance Band,5.0,594.62,0.15,2973.1,2527.13,2025-07
+ORD-00939,2025-07-29,Sana Singh,customer939@example.com,Delhi,Marketplace,Electronics,USB-C Hub,2.0,1699.54,0.0,3399.08,3399.08,2025-07
+ORD-00139,2025-07-30,Rohan Patel,customer139@example.com,Hyderabad,Retail Store,Sports,Yoga Mat,3.0,877.21,0.15,2631.63,2236.89,2025-07
+ORD-00364,2025-07-30,Sana Singh,customer364@example.com,Chennai,Mobile App,Electronics,USB-C Hub,5.0,1747.91,0.0,8739.55,8739.55,2025-07
+ORD-00636,2025-07-30,Vikram Nair,customer636@example.com,Mumbai,Retail Store,Fashion,Backpack,4.0,1466.85,0.15,5867.4,4987.29,2025-07
+ORD-00252,2025-07-31,Vikram Nair,customer252@example.com,Pune,Marketplace,Fashion,Sneakers,2.0,2701.51,0.15,5403.02,4592.57,2025-07
+ORD-00477,2025-07-31,Vikram Nair,customer477@example.com,Kolkata,Website,Electronics,USB-C Hub,3.0,1997.53,0.0,5992.59,5992.59,2025-07
+ORD-00484,2025-07-31,Kabir Rao,customer484@example.com,Kolkata,Retail Store,Home & Kitchen,Bottle,2.0,391.45,0.0,782.9,782.9,2025-07
+ORD-00903,2025-07-31,Meera Kumar,customer903@example.com,Bengaluru,Marketplace,Electronics,Headphones,2.0,2254.31,0.0,4508.62,4508.62,2025-07
+ORD-00566,2025-08-01,Vikram Nair,customer566@example.com,Hyderabad,Website,Fashion,Backpack,4.0,1299.06,0.0,5196.24,5196.24,2025-08
+ORD-00739,2025-08-01,Vikram Nair,customer739@example.com,Jaipur,Mobile App,Sports,Resistance Band,4.0,609.83,0.1,2439.32,2195.39,2025-08
+ORD-00943,2025-08-01,Arjun Das,customer943@example.com,Chennai,Mobile App,Sports,Yoga Mat,2.0,792.13,0.15,1584.26,1346.62,2025-08
+ORD-00164,2025-08-02,Kabir Rao,customer164@example.com,Chennai,Website,Electronics,Headphones,3.0,2290.05,0.0,6870.15,6870.15,2025-08
+ORD-00074,2025-08-03,Isha Reddy,customer74@example.com,Chennai,Retail Store,Home & Kitchen,Mixer,2.0,2256.63,0.0,4513.26,4513.26,2025-08
+ORD-00523,2025-08-03,Aarav Sharma,customer523@example.com,Chennai,Retail Store,Books,SQL Basics,5.0,629.95,0.05,3149.75,2992.26,2025-08
+ORD-00782,2025-08-03,Kabir Rao,customer782@example.com,Chennai,Retail Store,Sports,Resistance Band,2.0,650.39,0.0,1300.78,1300.78,2025-08
+ORD-00267,2025-08-04,Rohan Patel,customer267@example.com,Hyderabad,Website,Sports,Dumbbells,1.0,1651.06,0.0,1651.06,1651.06,2025-08
+ORD-00326,2025-08-04,Meera Kumar,customer326@example.com,Delhi,Marketplace,Electronics,Mouse,3.0,788.53,0.0,2365.59,2365.59,2025-08
+ORD-00355,2025-08-04,Aarav Sharma,customer355@example.com,Chennai,Website,Fashion,Sneakers,1.0,2406.48,0.05,2406.48,2286.16,2025-08
+ORD-00226,2025-08-05,Ananya Gupta,customer226@example.com,Chennai,Marketplace,Fashion,Sneakers,4.0,2871.43,0.15,11485.72,9762.86,2025-08
+ORD-00249,2025-08-05,Meera Kumar,customer249@example.com,Delhi,Retail Store,Books,Mystery Novel,2.0,369.39,0.1,738.78,664.9,2025-08
+ORD-00629,2025-08-05,Sana Singh,customer629@example.com,Bengaluru,Mobile App,Electronics,USB-C Hub,4.0,1682.99,0.15,6731.96,5722.17,2025-08
+ORD-00790,2025-08-05,Diya Verma,customer790@example.com,Pune,Mobile App,Electronics,USB-C Hub,2.0,1951.72,0.1,3903.44,3513.1,2025-08
+ORD-00856,2025-08-05,Arjun Das,customer856@example.com,Mumbai,Marketplace,Fashion,Sneakers,2.0,2513.66,0.05,5027.32,4775.95,2025-08
+ORD-00860,2025-08-05,Vikram Nair,customer860@example.com,Delhi,Mobile App,Home & Kitchen,Mixer,1.0,2792.67,0.15,2792.67,2373.77,2025-08
+ORD-00219,2025-08-06,Kabir Rao,customer219@example.com,Bengaluru,Retail Store,Fashion,Sneakers,1.0,2432.26,0.1,2432.26,2189.03,2025-08
+ORD-00499,2025-08-06,Ananya Gupta,customer499@example.com,Bengaluru,Marketplace,Home & Kitchen,Mixer,1.0,2267.07,0.05,2267.07,2153.72,2025-08
+ORD-00801,2025-08-06,Meera Kumar,customer801@example.com,Hyderabad,Website,Fashion,Sneakers,2.0,2240.8,0.05,4481.6,4257.52,2025-08
+ORD-00057,2025-08-07,Meera Kumar,customer57@example.com,Jaipur,Mobile App,Electronics,Headphones,4.0,2081.94,0.0,8327.76,8327.76,2025-08
+ORD-00107,2025-08-07,Ananya Gupta,customer107@example.com,Chennai,Retail Store,Fashion,Sneakers,1.0,2770.49,0.15,2770.49,2354.92,2025-08
+ORD-00193,2025-08-08,Sana Singh,customer193@example.com,Bengaluru,Mobile App,Sports,Resistance Band,3.0,653.67,0.05,1961.01,1862.96,2025-08
+ORD-00285,2025-08-08,Rohan Patel,customer285@example.com,Chennai,Website,Sports,Yoga Mat,5.0,711.66,0.0,3558.3,3558.3,2025-08
+ORD-00972,2025-08-08,Ananya Gupta,customer972@example.com,Hyderabad,Website,Electronics,Mouse,1.0,875.91,0.0,875.91,875.91,2025-08
+ORD-00066,2025-08-10,Isha Reddy,customer66@example.com,Chennai,Marketplace,Electronics,USB-C Hub,4.0,1948.93,0.1,7795.72,7016.15,2025-08
+ORD-00431,2025-08-10,Diya Verma,customer431@example.com,Bengaluru,Retail Store,Electronics,Headphones,5.0,1721.11,0.0,8605.55,8605.55,2025-08
+ORD-00008,2025-08-11,Isha Reddy,customer8@example.com,Bengaluru,Marketplace,Fashion,T-Shirt,4.0,686.0,0.1,2744.0,2469.6,2025-08
+ORD-00579,2025-08-11,Aarav Sharma,customer579@example.com,Delhi,Mobile App,Fashion,T-Shirt,3.0,572.69,0.15,1718.07,1460.36,2025-08
+ORD-00680,2025-08-11,Aarav Sharma,customer680@example.com,Chennai,Mobile App,Electronics,Headphones,5.0,1972.57,0.15,9862.85,8383.42,2025-08
+ORD-00009,2025-08-12,Kabir Rao,not-an-email,Pune,Retail Store,Sports,Yoga Mat,3.0,811.33,0.15,2433.99,2068.89,2025-08
+ORD-00412,2025-08-12,Kabir Rao,customer412@example.com,Hyderabad,Website,Home & Kitchen,Desk Lamp,3.0,789.53,0.0,2368.59,2368.59,2025-08
+ORD-00593,2025-08-12,Arjun Das,customer593@example.com,Kolkata,Marketplace,Electronics,USB-C Hub,4.0,2013.7,0.1,8054.8,7249.32,2025-08
+ORD-00858,2025-08-12,Kabir Rao,customer858@example.com,Mumbai,Website,Sports,Dumbbells,3.0,1419.44,0.0,4258.32,4258.32,2025-08
+ORD-00296,2025-08-13,Sana Singh,customer296@example.com,Jaipur,Website,Electronics,USB-C Hub,4.0,1959.96,0.0,7839.84,7839.84,2025-08
+ORD-00819,2025-08-13,Vikram Nair,customer819@example.com,Kolkata,Mobile App,Books,Mystery Novel,5.0,334.05,0.0,1670.25,1670.25,2025-08
+ORD-00887,2025-08-13,Kabir Rao,customer887@example.com,Kolkata,Marketplace,Home & Kitchen,Desk Lamp,3.0,786.96,0.15,2360.88,2006.75,2025-08
+ORD-00376,2025-08-14,Arjun Das,customer376@example.com,Mumbai,Retail Store,Sports,Yoga Mat,1.0,804.2,0.05,804.2,763.99,2025-08
+ORD-00560,2025-08-14,Rohan Patel,customer560@example.com,Mumbai,Retail Store,Home & Kitchen,Mixer,2.0,2500.03,0.1,5000.06,4500.05,2025-08
+ORD-00471,2025-08-15,Ananya Gupta,customer471@example.com,Hyderabad,Retail Store,Sports,Resistance Band,1.0,640.66,0.15,640.66,544.56,2025-08
+ORD-00262,2025-08-17,Arjun Das,customer262@example.com,Jaipur,Mobile App,Sports,Dumbbells,5.0,1602.72,0.15,8013.6,6811.56,2025-08
+ORD-00388,2025-08-17,Isha Reddy,customer388@example.com,Hyderabad,Retail Store,Sports,Yoga Mat,5.0,716.35,0.15,3581.75,3044.49,2025-08
+ORD-00179,2025-08-19,Ananya Gupta,customer179@example.com,Hyderabad,Website,Sports,Resistance Band,5.0,783.2,0.0,3916.0,3916.0,2025-08
+ORD-00222,2025-08-19,Kabir Rao,customer222@example.com,Delhi,Mobile App,Home & Kitchen,Desk Lamp,5.0,1027.87,0.1,5139.35,4625.42,2025-08
+ORD-00433,2025-08-19,Diya Verma,customer433@example.com,Bengaluru,Mobile App,Home & Kitchen,Desk Lamp,3.0,969.62,0.1,2908.86,2617.97,2025-08
+ORD-00815,2025-08-19,Sana Singh,customer815@example.com,Hyderabad,Marketplace,Electronics,Mouse,4.0,805.91,0.05,3223.64,3062.46,2025-08
+ORD-00259,2025-08-20,Isha Reddy,customer259@example.com,Hyderabad,Marketplace,Home & Kitchen,Bottle,5.0,421.99,0.15,2109.95,1793.46,2025-08
+ORD-00409,2025-08-20,Diya Verma,customer409@example.com,Mumbai,Website,Sports,Resistance Band,1.0,693.08,0.05,693.08,658.43,2025-08
+ORD-00944,2025-08-20,Meera Kumar,customer944@example.com,Mumbai,Mobile App,Home & Kitchen,Mixer,5.0,2395.38,0.1,11976.9,10779.21,2025-08
+ORD-00969,2025-08-20,Ananya Gupta,customer969@example.com,Hyderabad,Website,Books,Data Analytics 101,5.0,524.6,0.15,2623.0,2229.55,2025-08
+ORD-00290,2025-08-21,Diya Verma,customer290@example.com,Pune,Website,Sports,Dumbbells,3.0,1563.01,0.0,4689.03,4689.03,2025-08
+ORD-00743,2025-08-21,Diya Verma,customer743@example.com,Chennai,Retail Store,Sports,Resistance Band,2.0,708.21,0.15,1416.42,1203.96,2025-08
+ORD-00013,2025-08-22,Arjun Das,customer13@example.com,Bengaluru,Retail Store,Home & Kitchen,Mixer,5.0,2447.13,0.0,12235.65,12235.65,2025-08
+ORD-00163,2025-08-22,Sana Singh,customer163@example.com,Mumbai,Marketplace,Electronics,Mouse,2.0,837.57,0.05,1675.14,1591.38,2025-08
+ORD-00655,2025-08-22,Diya Verma,customer655@example.com,Bengaluru,Mobile App,Fashion,Backpack,4.0,1287.72,0.15,5150.88,4378.25,2025-08
+ORD-00814,2025-08-22,Meera Kumar,customer814@example.com,Kolkata,Website,Sports,Yoga Mat,3.0,762.57,0.15,2287.71,1944.55,2025-08
+ORD-00964,2025-08-22,Diya Verma,customer964@example.com,Jaipur,Website,Home & Kitchen,Desk Lamp,4.0,891.07,0.05,3564.28,3386.07,2025-08
+ORD-00036,2025-08-23,Meera Kumar,customer36@example.com,Jaipur,Website,Electronics,Headphones,1.0,2090.52,0.05,2090.52,1985.99,2025-08
+ORD-00044,2025-08-23,Aarav Sharma,customer44@example.com,Jaipur,Retail Store,Electronics,Headphones,4.0,1712.26,0.15,6849.04,5821.68,2025-08
+ORD-00342,2025-08-23,Aarav Sharma,customer342@example.com,Delhi,Retail Store,Electronics,Mouse,2.0,823.58,0.05,1647.16,1564.8,2025-08
+ORD-00423,2025-08-23,Aarav Sharma,customer423@example.com,Pune,Website,Books,Data Analytics 101,3.0,565.27,0.0,1695.81,1695.81,2025-08
+ORD-00613,2025-08-23,Rohan Patel,customer613@example.com,Pune,Mobile App,Books,SQL Basics,1.0,612.09,0.15,612.09,520.28,2025-08
+ORD-00661,2025-08-23,Rohan Patel,customer661@example.com,Mumbai,Retail Store,Fashion,T-Shirt,5.0,610.81,0.05,3054.05,2901.35,2025-08
+ORD-00795,2025-08-23,Aarav Sharma,customer795@example.com,Delhi,Retail Store,Electronics,Headphones,5.0,2000.88,0.05,10004.4,9504.18,2025-08
+ORD-00810,2025-08-23,Isha Reddy,customer810@example.com,Jaipur,Mobile App,Fashion,Sneakers,5.0,2177.88,0.15,10889.4,9255.99,2025-08
+ORD-00042,2025-08-24,Isha Reddy,customer42@example.com,Jaipur,Mobile App,Books,SQL Basics,2.0,632.22,0.0,1264.44,1264.44,2025-08
+ORD-00246,2025-08-24,Aarav Sharma,customer246@example.com,Mumbai,Marketplace,Home & Kitchen,Desk Lamp,4.0,1031.18,0.0,4124.72,4124.72,2025-08
+ORD-00401,2025-08-24,Arjun Das,customer401@example.com,Pune,Marketplace,Home & Kitchen,Mixer,2.0,2636.85,0.1,5273.7,4746.33,2025-08
+ORD-00832,2025-08-24,Sana Singh,customer832@example.com,Hyderabad,Retail Store,Books,Mystery Novel,3.0,356.81,0.0,1070.43,1070.43,2025-08
+ORD-00862,2025-08-24,Arjun Das,customer862@example.com,Mumbai,Retail Store,Home & Kitchen,Desk Lamp,1.0,958.38,0.0,958.38,958.38,2025-08
+ORD-00113,2025-08-25,Rohan Patel,customer113@example.com,Kolkata,Mobile App,Electronics,Headphones,4.0,2128.11,0.15,8512.44,7235.57,2025-08
+ORD-00206,2025-08-25,Arjun Das,customer206@example.com,Kolkata,Website,Electronics,Mouse,3.0,816.59,0.0,2449.77,2449.77,2025-08
+ORD-00694,2025-08-25,Rohan Patel,customer694@example.com,Pune,Retail Store,Home & Kitchen,Desk Lamp,2.0,978.68,0.0,1957.36,1957.36,2025-08
+ORD-00707,2025-08-25,Arjun Das,customer707@example.com,Jaipur,Retail Store,Sports,Resistance Band,5.0,750.85,0.0,3754.25,3754.25,2025-08
+ORD-00416,2025-08-26,Diya Verma,customer416@example.com,Jaipur,Mobile App,Electronics,Mouse,5.0,748.89,0.0,3744.45,3744.45,2025-08
+ORD-00993,2025-08-27,Aarav Sharma,customer993@example.com,Bengaluru,Retail Store,Books,SQL Basics,3.0,547.74,0.0,1643.22,1643.22,2025-08
+ORD-00671,2025-08-28,Vikram Nair,customer671@example.com,Delhi,Marketplace,Home & Kitchen,Desk Lamp,2.0,885.01,0.0,1770.02,1770.02,2025-08
+ORD-00706,2025-08-28,Meera Kumar,customer706@example.com,Jaipur,Retail Store,Electronics,USB-C Hub,1.0,1618.77,0.0,1618.77,1618.77,2025-08
+ORD-00077,2025-08-29,Rohan Patel,customer77@example.com,Kolkata,Marketplace,Fashion,T-Shirt,1.0,682.66,0.15,682.66,580.26,2025-08
+ORD-00397,2025-08-29,Diya Verma,customer397@example.com,Bengaluru,Marketplace,Sports,Dumbbells,3.0,1709.71,0.05,5129.13,4872.67,2025-08
+ORD-00478,2025-08-29,Sana Singh,customer478@example.com,Chennai,Website,Fashion,T-Shirt,5.0,677.59,0.0,3387.95,3387.95,2025-08
+ORD-00881,2025-08-29,Isha Reddy,customer881@example.com,Hyderabad,Marketplace,Sports,Dumbbells,2.0,1667.44,0.1,3334.88,3001.39,2025-08
+ORD-00030,2025-08-30,Meera Kumar,customer30@example.com,Bengaluru,Retail Store,Sports,Resistance Band,3.0,727.54,0.05,2182.62,2073.49,2025-08
+ORD-00191,2025-08-30,Arjun Das,customer191@example.com,Jaipur,Retail Store,Home & Kitchen,Bottle,5.0,341.9,0.1,1709.5,1538.55,2025-08
+ORD-00268,2025-08-30,Ananya Gupta,customer268@example.com,Mumbai,Marketplace,Electronics,USB-C Hub,3.0,2122.92,0.1,6368.76,5731.88,2025-08
+ORD-00281,2025-08-30,Meera Kumar,customer281@example.com,Delhi,Retail Store,Sports,Dumbbells,4.0,1322.43,0.0,5289.72,5289.72,2025-08
+ORD-00368,2025-08-30,Vikram Nair,customer368@example.com,Chennai,Mobile App,Electronics,Headphones,2.0,2161.4,0.0,4322.8,4322.8,2025-08
+ORD-00487,2025-08-30,Diya Verma,customer487@example.com,Pune,Retail Store,Electronics,Mouse,1.0,890.64,0.15,890.64,757.04,2025-08
+ORD-00899,2025-08-30,Isha Reddy,customer899@example.com,Pune,Marketplace,Home & Kitchen,Bottle,3.0,340.05,0.0,1020.15,1020.15,2025-08
+ORD-00403,2025-08-31,Diya Verma,customer403@example.com,Bengaluru,Website,Home & Kitchen,Desk Lamp,2.0,789.58,0.05,1579.16,1500.2,2025-08
+ORD-00452,2025-08-31,Aarav Sharma,customer452@example.com,Jaipur,Marketplace,Home & Kitchen,Bottle,4.0,437.65,0.0,1750.6,1750.6,2025-08
+ORD-00900,2025-08-31,Sana Singh,customer900@example.com,Kolkata,Retail Store,Home & Kitchen,Desk Lamp,2.0,926.9,0.0,1853.8,1853.8,2025-08
+ORD-00063,2025-09-01,Arjun Das,customer63@example.com,Pune,Marketplace,Electronics,Mouse,4.0,769.44,0.05,3077.76,2923.87,2025-09
+ORD-00436,2025-09-01,Meera Kumar,customer436@example.com,Bengaluru,Mobile App,Home & Kitchen,Desk Lamp,3.0,846.65,0.0,2539.95,2539.95,2025-09
+ORD-00568,2025-09-01,Ananya Gupta,customer568@example.com,Hyderabad,Website,Fashion,Backpack,4.0,1480.41,0.0,5921.64,5921.64,2025-09
+ORD-00283,2025-09-02,Meera Kumar,customer283@example.com,Hyderabad,Marketplace,Fashion,T-Shirt,3.0,661.9,0.0,1985.7,1985.7,2025-09
+ORD-00322,2025-09-02,Meera Kumar,customer322@example.com,Mumbai,Marketplace,Fashion,T-Shirt,1.0,625.82,0.0,625.82,625.82,2025-09
+ORD-00852,2025-09-02,Ananya Gupta,customer852@example.com,Mumbai,Marketplace,Fashion,Backpack,2.0,1346.54,0.0,2693.08,2693.08,2025-09
+ORD-00043,2025-09-03,Diya Verma,customer43@example.com,Kolkata,Retail Store,Electronics,Headphones,4.0,1742.76,0.0,6971.04,6971.04,2025-09
+ORD-00733,2025-09-03,Vikram Nair,customer733@example.com,Mumbai,Marketplace,Sports,Dumbbells,5.0,1371.38,0.15,6856.9,5828.36,2025-09
+ORD-00079,2025-09-04,Kabir Rao,customer79@example.com,Hyderabad,Mobile App,Electronics,Mouse,5.0,767.38,0.05,3836.9,3645.06,2025-09
+ORD-00587,2025-09-04,Meera Kumar,customer587@example.com,Delhi,Marketplace,Electronics,USB-C Hub,5.0,1631.8,0.05,8159.0,7751.05,2025-09
+ORD-00025,2025-09-05,Meera Kumar,customer25@example.com,Mumbai,Mobile App,Books,Data Analytics 101,3.0,554.47,0.0,1663.41,1663.41,2025-09
+ORD-00099,2025-09-05,Meera Kumar,customer99@example.com,Mumbai,Website,Electronics,Mouse,1.0,858.17,0.0,858.17,858.17,2025-09
+ORD-00131,2025-09-05,Isha Reddy,customer131@example.com,Hyderabad,Mobile App,Electronics,Mouse,1.0,761.48,0.0,761.48,761.48,2025-09
+ORD-00168,2025-09-05,Isha Reddy,customer168@example.com,Hyderabad,Mobile App,Fashion,T-Shirt,1.0,641.93,0.15,641.93,545.64,2025-09
+ORD-00503,2025-09-05,Vikram Nair,customer503@example.com,Mumbai,Retail Store,Electronics,Headphones,1.0,2266.87,0.05,2266.87,2153.53,2025-09
+ORD-00604,2025-09-05,Diya Verma,customer604@example.com,Kolkata,Website,Home & Kitchen,Bottle,3.0,408.77,0.05,1226.31,1164.99,2025-09
+ORD-00734,2025-09-05,Sana Singh,customer734@example.com,Bengaluru,Website,Sports,Resistance Band,2.0,752.84,0.0,1505.68,1505.68,2025-09
+ORD-00052,2025-09-06,Ananya Gupta,customer52@example.com,Chennai,Website,Home & Kitchen,Bottle,1.0,441.53,0.0,441.53,441.53,2025-09
+ORD-00169,2025-09-06,Diya Verma,customer169@example.com,Chennai,Retail Store,Home & Kitchen,Bottle,4.0,409.52,0.15,1638.08,1392.37,2025-09
+ORD-00407,2025-09-06,Ananya Gupta,customer407@example.com,Hyderabad,Marketplace,Home & Kitchen,Desk Lamp,5.0,921.07,0.0,4605.35,4605.35,2025-09
+ORD-00879,2025-09-06,Kabir Rao,customer879@example.com,Delhi,Mobile App,Home & Kitchen,Bottle,1.0,385.59,0.0,385.59,385.59,2025-09
+ORD-00049,2025-09-07,Diya Verma,customer49@example.com,Mumbai,Website,Sports,Resistance Band,2.0,710.23,0.0,1420.46,1420.46,2025-09
+ORD-00269,2025-09-07,Vikram Nair,customer269@example.com,Pune,Retail Store,Fashion,Backpack,2.0,1256.7,0.15,2513.4,2136.39,2025-09
+ORD-00959,2025-09-07,Vikram Nair,customer959@example.com,Jaipur,Mobile App,Fashion,Backpack,1.0,1309.39,0.1,1309.39,1178.45,2025-09
+ORD-00069,2025-09-08,Meera Kumar,customer69@example.com,Jaipur,Retail Store,Sports,Yoga Mat,5.0,910.03,0.0,4550.15,4550.15,2025-09
+ORD-00238,2025-09-08,Sana Singh,customer238@example.com,Bengaluru,Retail Store,Electronics,Headphones,3.0,1915.12,0.05,5745.36,5458.09,2025-09
+ORD-00327,2025-09-08,Diya Verma,customer327@example.com,Hyderabad,Retail Store,Home & Kitchen,Mixer,5.0,2387.13,0.1,11935.65,10742.08,2025-09
+ORD-00809,2025-09-08,Aarav Sharma,customer809@example.com,Hyderabad,Retail Store,Sports,Resistance Band,4.0,802.0,0.15,3208.0,2726.8,2025-09
+ORD-00913,2025-09-08,Meera Kumar,customer913@example.com,Kolkata,Mobile App,Electronics,Headphones,5.0,1930.13,0.0,9650.65,9650.65,2025-09
+ORD-00024,2025-09-09,Diya Verma,customer24@example.com,Bengaluru,Mobile App,Home & Kitchen,Mixer,5.0,2331.47,0.0,11657.35,11657.35,2025-09
+ORD-00231,2025-09-09,Rohan Patel,customer231@example.com,Pune,Retail Store,Sports,Dumbbells,4.0,1434.25,0.1,5737.0,5163.3,2025-09
+ORD-00563,2025-09-09,Isha Reddy,customer563@example.com,Mumbai,Website,Home & Kitchen,Bottle,3.0,441.63,0.0,1324.89,1324.89,2025-09
+ORD-00769,2025-09-09,Kabir Rao,customer769@example.com,Jaipur,Marketplace,Sports,Resistance Band,4.0,702.49,0.0,2809.96,2809.96,2025-09
+ORD-00885,2025-09-09,Vikram Nair,customer885@example.com,Mumbai,Marketplace,Books,Data Analytics 101,4.0,561.08,0.1,2244.32,2019.89,2025-09
+ORD-00424,2025-09-10,Sana Singh,customer424@example.com,Chennai,Mobile App,Electronics,USB-C Hub,5.0,1841.14,0.15,9205.7,7824.84,2025-09
+ORD-00875,2025-09-10,Isha Reddy,customer875@example.com,Mumbai,Marketplace,Fashion,Backpack,3.0,1328.28,0.05,3984.84,3785.6,2025-09
+ORD-00337,2025-09-11,Vikram Nair,customer337@example.com,Hyderabad,Mobile App,Electronics,Mouse,1.0,898.6,0.0,898.6,898.6,2025-09
+ORD-00702,2025-09-11,Meera Kumar,customer702@example.com,Pune,Marketplace,Sports,Resistance Band,1.0,607.06,0.0,607.06,607.06,2025-09
+ORD-00978,2025-09-11,Diya Verma,customer978@example.com,Bengaluru,Website,Home & Kitchen,Mixer,3.0,2256.32,0.15,6768.96,5753.62,2025-09
+ORD-00019,2025-09-12,Aarav Sharma,customer19@example.com,Jaipur,Mobile App,Books,SQL Basics,1.0,651.39,0.0,651.39,651.39,2025-09
+ORD-00475,2025-09-12,Aarav Sharma,customer475@example.com,Mumbai,Website,Electronics,USB-C Hub,2.0,2040.26,0.0,4080.52,4080.52,2025-09
+ORD-00908,2025-09-12,Kabir Rao,customer908@example.com,Mumbai,Marketplace,Sports,Resistance Band,4.0,750.29,0.0,3001.16,3001.16,2025-09
+ORD-00202,2025-09-13,Meera Kumar,customer202@example.com,Jaipur,Mobile App,Home & Kitchen,Mixer,4.0,2337.36,0.15,9349.44,7947.02,2025-09
+ORD-00207,2025-09-13,Meera Kumar,customer207@example.com,Mumbai,Website,Books,Mystery Novel,3.0,368.73,0.1,1106.19,995.57,2025-09
+ORD-00237,2025-09-13,Sana Singh,customer237@example.com,Bengaluru,Retail Store,Fashion,Sneakers,3.0,2609.17,0.05,7827.51,7436.13,2025-09
+ORD-00648,2025-09-13,Vikram Nair,customer648@example.com,Chennai,Website,Home & Kitchen,Mixer,2.0,2505.59,0.15,5011.18,4259.5,2025-09
+ORD-00015,2025-09-14,Isha Reddy,customer15@example.com,Hyderabad,Retail Store,Fashion,Backpack,1.0,1278.14,0.05,1278.14,1214.23,2025-09
+ORD-00444,2025-09-14,Kabir Rao,customer444@example.com,Jaipur,Website,Home & Kitchen,Desk Lamp,4.0,885.51,0.0,3542.04,3542.04,2025-09
+ORD-00511,2025-09-14,Diya Verma,customer511@example.com,Chennai,Mobile App,Home & Kitchen,Mixer,5.0,2372.24,0.0,11861.2,11861.2,2025-09
+ORD-00514,2025-09-14,Meera Kumar,customer514@example.com,Pune,Mobile App,Home & Kitchen,Desk Lamp,5.0,909.95,0.15,4549.75,3867.29,2025-09
+ORD-00674,2025-09-14,Rohan Patel,customer674@example.com,Pune,Mobile App,Electronics,Mouse,5.0,868.22,0.05,4341.1,4124.04,2025-09
+ORD-00762,2025-09-14,Diya Verma,customer762@example.com,Hyderabad,Website,Electronics,Headphones,2.0,1974.18,0.0,3948.36,3948.36,2025-09
+ORD-00058,2025-09-15,Isha Reddy,customer58@example.com,Chennai,Mobile App,Home & Kitchen,Desk Lamp,3.0,866.77,0.1,2600.31,2340.28,2025-09
+ORD-00324,2025-09-15,Vikram Nair,customer324@example.com,Kolkata,Mobile App,Books,Mystery Novel,3.0,376.42,0.0,1129.26,1129.26,2025-09
+ORD-00704,2025-09-15,Isha Reddy,customer704@example.com,Kolkata,Marketplace,Home & Kitchen,Mixer,5.0,2484.94,0.1,12424.7,11182.23,2025-09
+ORD-00777,2025-09-15,Arjun Das,customer777@example.com,Kolkata,Marketplace,Home & Kitchen,Desk Lamp,2.0,941.9,0.15,1883.8,1601.23,2025-09
+ORD-00142,2025-09-16,Ananya Gupta,customer142@example.com,Bengaluru,Retail Store,Electronics,Mouse,5.0,852.21,0.0,4261.05,4261.05,2025-09
+ORD-00861,2025-09-16,Meera Kumar,customer861@example.com,Chennai,Mobile App,Sports,Dumbbells,2.0,1706.08,0.15,3412.16,2900.34,2025-09
+ORD-00026,2025-09-17,Kabir Rao,customer26@example.com,Pune,Mobile App,Home & Kitchen,Desk Lamp,2.0,931.44,0.0,1862.88,1862.88,2025-09
+ORD-00227,2025-09-18,Vikram Nair,customer227@example.com,Pune,Retail Store,Sports,Dumbbells,1.0,1590.12,0.0,1590.12,1590.12,2025-09
+ORD-00709,2025-09-18,Isha Reddy,customer709@example.com,Pune,Retail Store,Electronics,Headphones,1.0,2006.42,0.05,2006.42,1906.1,2025-09
+ORD-00933,2025-09-18,Ananya Gupta,customer933@example.com,Delhi,Website,Electronics,Headphones,2.0,1783.85,0.0,3567.7,3567.7,2025-09
+ORD-00947,2025-09-18,Arjun Das,customer947@example.com,Kolkata,Retail Store,Home & Kitchen,Bottle,1.0,443.2,0.1,443.2,398.88,2025-09
+ORD-00094,2025-09-19,Rohan Patel,customer94@example.com,Delhi,Retail Store,Books,Mystery Novel,5.0,340.31,0.1,1701.55,1531.4,2025-09
+ORD-00391,2025-09-19,Rohan Patel,customer391@example.com,Jaipur,Retail Store,Home & Kitchen,Desk Lamp,2.0,816.08,0.0,1632.16,1632.16,2025-09
+ORD-00509,2025-09-19,Vikram Nair,customer509@example.com,Jaipur,Retail Store,Home & Kitchen,Desk Lamp,3.0,842.66,0.0,2527.98,2527.98,2025-09
+ORD-00755,2025-09-19,Aarav Sharma,customer755@example.com,Kolkata,Website,Fashion,Sneakers,5.0,2147.98,0.1,10739.9,9665.91,2025-09
+ORD-00138,2025-09-20,Ananya Gupta,customer138@example.com,Jaipur,Website,Fashion,Backpack,4.0,1449.89,0.1,5799.56,5219.6,2025-09
+ORD-00351,2025-09-20,Isha Reddy,customer351@example.com,Pune,Retail Store,Books,SQL Basics,5.0,647.18,0.0,3235.9,3235.9,2025-09
+ORD-00658,2025-09-20,Ananya Gupta,customer658@example.com,Chennai,Marketplace,Fashion,Backpack,5.0,1201.01,0.1,6005.05,5404.54,2025-09
+ORD-00181,2025-09-21,Diya Verma,customer181@example.com,Jaipur,Marketplace,Electronics,Headphones,2.0,1728.26,0.0,3456.52,3456.52,2025-09
+ORD-00449,2025-09-21,Ananya Gupta,customer449@example.com,Bengaluru,Marketplace,Books,SQL Basics,3.0,511.67,0.05,1535.01,1458.26,2025-09
+ORD-00183,2025-09-22,Aarav Sharma,customer183@example.com,Jaipur,Mobile App,Electronics,USB-C Hub,3.0,1840.3,0.0,5520.9,5520.9,2025-09
+ORD-00245,2025-09-22,Diya Verma,customer245@example.com,Pune,Marketplace,Books,Mystery Novel,5.0,364.71,0.05,1823.55,1732.37,2025-09
+ORD-00480,2025-09-22,Aarav Sharma,customer480@example.com,Mumbai,Marketplace,Electronics,Mouse,5.0,726.66,0.15,3633.3,3088.3,2025-09
+ORD-00490,2025-09-22,Kabir Rao,customer490@example.com,Chennai,Marketplace,Books,Mystery Novel,5.0,396.79,0.0,1983.95,1983.95,2025-09
+ORD-00527,2025-09-22,Kabir Rao,customer527@example.com,Hyderabad,Marketplace,Books,SQL Basics,2.0,557.13,0.1,1114.26,1002.83,2025-09
+ORD-00797,2025-09-22,Sana Singh,customer797@example.com,Pune,Marketplace,Sports,Yoga Mat,4.0,865.16,0.0,3460.64,3460.64,2025-09
+ORD-00123,2025-09-23,Sana Singh,customer123@example.com,Mumbai,Retail Store,Electronics,Mouse,1.0,763.38,0.15,763.38,648.87,2025-09
+ORD-00150,2025-09-23,Meera Kumar,customer150@example.com,Chennai,Marketplace,Sports,Resistance Band,1.0,638.54,0.0,638.54,638.54,2025-09
+ORD-00180,2025-09-23,Isha Reddy,customer180@example.com,Bengaluru,Marketplace,Sports,Dumbbells,5.0,1620.44,0.0,8102.2,8102.2,2025-09
+ORD-00335,2025-09-23,Aarav Sharma,customer335@example.com,Mumbai,Mobile App,Sports,Dumbbells,3.0,1420.46,0.15,4261.38,3622.17,2025-09
+ORD-00524,2025-09-24,Aarav Sharma,customer524@example.com,Pune,Retail Store,Home & Kitchen,Bottle,2.0,441.79,0.0,883.58,883.58,2025-09
+ORD-00583,2025-09-25,Kabir Rao,customer583@example.com,Kolkata,Marketplace,Sports,Resistance Band,4.0,791.27,0.0,3165.08,3165.08,2025-09
+ORD-00111,2025-09-26,Aarav Sharma,customer111@example.com,Pune,Marketplace,Electronics,Headphones,5.0,2224.26,0.1,11121.3,10009.17,2025-09
+ORD-00428,2025-09-26,Ananya Gupta,customer428@example.com,Jaipur,Marketplace,Fashion,Sneakers,1.0,2209.59,0.05,2209.59,2099.11,2025-09
+ORD-00500,2025-09-26,Sana Singh,customer500@example.com,Pune,Marketplace,Fashion,Backpack,4.0,1230.07,0.0,4920.28,4920.28,2025-09
+ORD-00596,2025-09-26,Isha Reddy,customer596@example.com,Chennai,Mobile App,Sports,Resistance Band,5.0,731.44,0.15,3657.2,3108.62,2025-09
+ORD-00134,2025-09-28,Arjun Das,customer134@example.com,Kolkata,Marketplace,Electronics,USB-C Hub,4.0,1729.13,0.0,6916.52,6916.52,2025-09
+ORD-00488,2025-09-28,Ananya Gupta,customer488@example.com,Bengaluru,Marketplace,Books,Data Analytics 101,1.0,497.15,0.0,497.15,497.15,2025-09
+ORD-00677,2025-09-28,Arjun Das,customer677@example.com,Hyderabad,Retail Store,Electronics,USB-C Hub,2.0,2085.47,0.05,4170.94,3962.39,2025-09
+ORD-00833,2025-09-28,Diya Verma,customer833@example.com,Chennai,Mobile App,Books,Data Analytics 101,2.0,551.21,0.0,1102.42,1102.42,2025-09
+ORD-00455,2025-09-29,Aarav Sharma,customer455@example.com,Delhi,Mobile App,Home & Kitchen,Desk Lamp,1.0,861.34,0.1,861.34,775.21,2025-09
+ORD-00729,2025-09-29,Ananya Gupta,customer729@example.com,Bengaluru,Mobile App,Books,Mystery Novel,4.0,328.28,0.15,1313.12,1116.15,2025-09
+ORD-00494,2025-09-30,Diya Verma,customer494@example.com,Kolkata,Marketplace,Fashion,Sneakers,3.0,2557.27,0.0,7671.81,7671.81,2025-09
+ORD-00697,2025-09-30,Aarav Sharma,customer697@example.com,Kolkata,Mobile App,Fashion,Sneakers,5.0,2735.45,0.0,13677.25,13677.25,2025-09
+ORD-00775,2025-09-30,Isha Reddy,customer775@example.com,Bengaluru,Website,Fashion,Sneakers,2.0,2300.52,0.15,4601.04,3910.88,2025-09
+ORD-00536,2025-10-01,Rohan Patel,customer536@example.com,Jaipur,Marketplace,Electronics,Headphones,3.0,1846.6,0.1,5539.8,4985.82,2025-10
+ORD-00554,2025-10-01,Aarav Sharma,customer554@example.com,Bengaluru,Mobile App,Electronics,Headphones,1.0,1934.35,0.05,1934.35,1837.63,2025-10
+ORD-00798,2025-10-01,Sana Singh,customer798@example.com,Chennai,Website,Sports,Resistance Band,4.0,765.85,0.05,3063.4,2910.23,2025-10
+ORD-00825,2025-10-01,Sana Singh,customer825@example.com,Kolkata,Mobile App,Home & Kitchen,Desk Lamp,3.0,788.63,0.05,2365.89,2247.6,2025-10
+ORD-00663,2025-10-02,Isha Reddy,customer663@example.com,Pune,Retail Store,Books,Data Analytics 101,5.0,428.9,0.05,2144.5,2037.28,2025-10
+ORD-00668,2025-10-02,Diya Verma,customer668@example.com,Mumbai,Retail Store,Home & Kitchen,Bottle,5.0,342.51,0.05,1712.55,1626.92,2025-10
+ORD-00846,2025-10-02,Meera Kumar,customer846@example.com,Delhi,Marketplace,Home & Kitchen,Desk Lamp,3.0,804.41,0.15,2413.23,2051.25,2025-10
+ORD-00539,2025-10-03,Meera Kumar,customer539@example.com,Pune,Retail Store,Fashion,Sneakers,4.0,2833.62,0.0,11334.48,11334.48,2025-10
+ORD-00602,2025-10-03,Aarav Sharma,customer602@example.com,Delhi,Mobile App,Electronics,Headphones,5.0,2247.4,0.0,11237.0,11237.0,2025-10
+ORD-00666,2025-10-03,Arjun Das,customer666@example.com,Mumbai,Website,Electronics,USB-C Hub,3.0,1958.43,0.0,5875.29,5875.29,2025-10
+ORD-00619,2025-10-04,Rohan Patel,customer619@example.com,Kolkata,Marketplace,Fashion,Sneakers,2.0,2708.99,0.05,5417.98,5147.08,2025-10
+ORD-00108,2025-10-05,Arjun Das,customer108@example.com,Kolkata,Retail Store,Fashion,T-Shirt,3.0,634.24,0.15,1902.72,1617.31,2025-10
+ORD-00942,2025-10-05,Rohan Patel,customer942@example.com,Kolkata,Retail Store,Electronics,Headphones,1.0,1939.81,0.15,1939.81,1648.84,2025-10
+ORD-00151,2025-10-06,Rohan Patel,customer151@example.com,Hyderabad,Mobile App,Sports,Dumbbells,2.0,1582.85,0.05,3165.7,3007.41,2025-10
+ORD-00517,2025-10-06,Meera Kumar,customer517@example.com,Bengaluru,Marketplace,Home & Kitchen,Mixer,5.0,2150.27,0.0,10751.35,10751.35,2025-10
+ORD-00788,2025-10-06,Vikram Nair,customer788@example.com,Jaipur,Retail Store,Electronics,Mouse,3.0,812.49,0.1,2437.47,2193.72,2025-10
+ORD-00176,2025-10-07,Vikram Nair,customer176@example.com,Delhi,Retail Store,Fashion,T-Shirt,5.0,528.67,0.05,2643.35,2511.18,2025-10
+ORD-00894,2025-10-07,Kabir Rao,customer894@example.com,Hyderabad,Retail Store,Fashion,Backpack,5.0,1320.52,0.1,6602.6,5942.34,2025-10
+ORD-00948,2025-10-07,Kabir Rao,customer948@example.com,Mumbai,Marketplace,Books,Data Analytics 101,1.0,543.49,0.05,543.49,516.32,2025-10
+ORD-00420,2025-10-08,Aarav Sharma,customer420@example.com,Kolkata,Marketplace,Books,SQL Basics,3.0,574.55,0.1,1723.65,1551.28,2025-10
+ORD-00541,2025-10-08,Meera Kumar,customer541@example.com,Hyderabad,Retail Store,Books,Mystery Novel,2.0,382.94,0.0,765.88,765.88,2025-10
+ORD-00559,2025-10-08,Sana Singh,customer559@example.com,Delhi,Marketplace,Fashion,Sneakers,3.0,2638.16,0.15,7914.48,6727.31,2025-10
+ORD-00915,2025-10-08,Isha Reddy,customer915@example.com,Chennai,Mobile App,Sports,Dumbbells,3.0,1473.06,0.05,4419.18,4198.22,2025-10
+ORD-00932,2025-10-08,Isha Reddy,customer932@example.com,Delhi,Retail Store,Home & Kitchen,Desk Lamp,4.0,905.22,0.05,3620.88,3439.84,2025-10
+ORD-00029,2025-10-09,Kabir Rao,customer29@example.com,Bengaluru,Mobile App,Fashion,Sneakers,3.0,2775.98,0.1,8327.94,7495.15,2025-10
+ORD-00581,2025-10-09,Isha Reddy,customer581@example.com,Pune,Website,Home & Kitchen,Mixer,4.0,2255.15,0.05,9020.6,8569.57,2025-10
+ORD-00938,2025-10-09,Rohan Patel,customer938@example.com,Hyderabad,Mobile App,Fashion,Backpack,3.0,1208.09,0.1,3624.27,3261.84,2025-10
+ORD-00010,2025-10-10,Isha Reddy,customer10@example.com,Mumbai,Retail Store,Electronics,USB-C Hub,2.0,1939.33,0.15,3878.66,3296.86,2025-10
+ORD-00075,2025-10-10,Diya Verma,customer75@example.com,Jaipur,Marketplace,Sports,Dumbbells,4.0,1687.44,0.1,6749.76,6074.78,2025-10
+ORD-00141,2025-10-10,Isha Reddy,customer141@example.com,Mumbai,Marketplace,Home & Kitchen,Mixer,1.0,2735.66,0.0,2735.66,2735.66,2025-10
+ORD-00316,2025-10-10,Ananya Gupta,customer316@example.com,Jaipur,Mobile App,Home & Kitchen,Bottle,3.0,391.84,0.05,1175.52,1116.74,2025-10
+ORD-00422,2025-10-11,Aarav Sharma,customer422@example.com,Chennai,Retail Store,Electronics,Mouse,5.0,723.2,0.0,3616.0,3616.0,2025-10
+ORD-00443,2025-10-11,Meera Kumar,customer443@example.com,Mumbai,Marketplace,Fashion,Sneakers,1.0,2553.85,0.1,2553.85,2298.46,2025-10
+ORD-00481,2025-10-11,Isha Reddy,customer481@example.com,Bengaluru,Website,Home & Kitchen,Bottle,2.0,404.0,0.15,808.0,686.8,2025-10
+ORD-00753,2025-10-11,Aarav Sharma,customer753@example.com,Pune,Website,Sports,Yoga Mat,3.0,872.18,0.1,2616.54,2354.89,2025-10
+ORD-00003,2025-10-12,Aarav Sharma,customer3@example.com,Mumbai,Marketplace,Home & Kitchen,Mixer,2.0,2350.7,0.05,4701.4,4466.33,2025-10
+ORD-00096,2025-10-12,Sana Singh,customer96@example.com,Mumbai,Marketplace,Sports,Yoga Mat,5.0,723.89,0.0,3619.45,3619.45,2025-10
+ORD-00185,2025-10-12,Diya Verma,customer185@example.com,Kolkata,Website,Home & Kitchen,Desk Lamp,1.0,900.38,0.05,900.38,855.36,2025-10
+ORD-00725,2025-10-12,Rohan Patel,customer725@example.com,Kolkata,Mobile App,Fashion,Sneakers,4.0,2530.36,0.0,10121.44,10121.44,2025-10
+ORD-00882,2025-10-12,Ananya Gupta,customer882@example.com,Pune,Website,Books,Data Analytics 101,1.0,466.51,0.15,466.51,396.53,2025-10
+ORD-00931,2025-10-12,Meera Kumar,customer931@example.com,Chennai,Retail Store,Home & Kitchen,Bottle,4.0,351.06,0.05,1404.24,1334.03,2025-10
+ORD-00997,2025-10-12,Kabir Rao,customer997@example.com,Bengaluru,Retail Store,Fashion,T-Shirt,2.0,541.44,0.15,1082.88,920.45,2025-10
+ORD-00100,2025-10-13,Aarav Sharma,customer100@example.com,Kolkata,Mobile App,Sports,Dumbbells,1.0,1515.01,0.0,1515.01,1515.01,2025-10
+ORD-00130,2025-10-13,Aarav Sharma,customer130@example.com,Bengaluru,Retail Store,Home & Kitchen,Bottle,5.0,411.65,0.1,2058.25,1852.42,2025-10
+ORD-00451,2025-10-13,Aarav Sharma,customer451@example.com,Delhi,Marketplace,Sports,Resistance Band,4.0,753.56,0.0,3014.24,3014.24,2025-10
+ORD-00192,2025-10-14,Vikram Nair,customer192@example.com,Jaipur,Marketplace,Fashion,T-Shirt,4.0,640.73,0.0,2562.92,2562.92,2025-10
+ORD-00241,2025-10-14,Arjun Das,customer241@example.com,Chennai,Mobile App,Home & Kitchen,Bottle,5.0,438.05,0.05,2190.25,2080.74,2025-10
+ORD-00603,2025-10-14,Arjun Das,customer603@example.com,Pune,Mobile App,Sports,Dumbbells,1.0,1458.74,0.1,1458.74,1312.87,2025-10
+ORD-00692,2025-10-15,Meera Kumar,customer692@example.com,Hyderabad,Marketplace,Sports,Dumbbells,4.0,1710.5,0.05,6842.0,6499.9,2025-10
+ORD-00522,2025-10-16,Arjun Das,customer522@example.com,Mumbai,Retail Store,Books,Mystery Novel,4.0,324.62,0.05,1298.48,1233.56,2025-10
+ORD-00334,2025-10-17,Rohan Patel,customer334@example.com,Hyderabad,Website,Fashion,Backpack,4.0,1129.18,0.1,4516.72,4065.05,2025-10
+ORD-00612,2025-10-18,Rohan Patel,customer612@example.com,Mumbai,Marketplace,Sports,Resistance Band,5.0,646.37,0.0,3231.85,3231.85,2025-10
+ORD-00723,2025-10-18,Diya Verma,customer723@example.com,Delhi,Mobile App,Home & Kitchen,Bottle,1.0,372.95,0.1,372.95,335.66,2025-10
+ORD-00848,2025-10-18,Ananya Gupta,customer848@example.com,Hyderabad,Retail Store,Fashion,Backpack,3.0,1126.21,0.1,3378.63,3040.77,2025-10
+ORD-00213,2025-10-19,Kabir Rao,customer213@example.com,Delhi,Website,Sports,Resistance Band,5.0,611.58,0.0,3057.9,3057.9,2025-10
+ORD-00876,2025-10-19,Isha Reddy,customer876@example.com,Chennai,Website,Fashion,Backpack,2.0,1410.46,0.1,2820.92,2538.83,2025-10
+ORD-00200,2025-10-20,Arjun Das,customer200@example.com,Jaipur,Retail Store,Books,Data Analytics 101,3.0,523.8,0.1,1571.4,1414.26,2025-10
+ORD-00672,2025-10-20,Isha Reddy,customer672@example.com,Pune,Retail Store,Fashion,T-Shirt,1.0,603.29,0.05,603.29,573.13,2025-10
+ORD-00818,2025-10-20,Ananya Gupta,customer818@example.com,Mumbai,Marketplace,Electronics,Headphones,1.0,2027.98,0.05,2027.98,1926.58,2025-10
+ORD-00068,2025-10-21,Sana Singh,customer68@example.com,Pune,Marketplace,Fashion,T-Shirt,4.0,588.76,0.0,2355.04,2355.04,2025-10
+ORD-00137,2025-10-21,Aarav Sharma,customer137@example.com,Delhi,Retail Store,Sports,Resistance Band,4.0,775.55,0.0,3102.2,3102.2,2025-10
+ORD-00314,2025-10-21,Diya Verma,customer314@example.com,Delhi,Retail Store,Books,SQL Basics,4.0,528.8,0.15,2115.2,1797.92,2025-10
+ORD-00328,2025-10-22,Kabir Rao,customer328@example.com,Jaipur,Mobile App,Sports,Dumbbells,5.0,1450.6,0.15,7253.0,6165.05,2025-10
+ORD-00628,2025-10-22,Diya Verma,customer628@example.com,Kolkata,Retail Store,Electronics,USB-C Hub,3.0,1753.23,0.1,5259.69,4733.72,2025-10
+ORD-00155,2025-10-24,Aarav Sharma,customer155@example.com,Delhi,Website,Home & Kitchen,Mixer,4.0,2374.73,0.05,9498.92,9023.97,2025-10
+ORD-00240,2025-10-24,Arjun Das,customer240@example.com,Chennai,Retail Store,Electronics,USB-C Hub,1.0,1922.79,0.1,1922.79,1730.51,2025-10
+ORD-00776,2025-10-25,Arjun Das,customer776@example.com,Kolkata,Website,Sports,Resistance Band,3.0,767.7,0.0,2303.1,2303.1,2025-10
+ORD-00125,2025-10-26,Ananya Gupta,customer125@example.com,Bengaluru,Retail Store,Sports,Resistance Band,4.0,739.11,0.0,2956.44,2956.44,2025-10
+ORD-00529,2025-10-26,Meera Kumar,customer529@example.com,Delhi,Marketplace,Home & Kitchen,Bottle,4.0,427.5,0.0,1710.0,1710.0,2025-10
+ORD-00085,2025-10-27,Vikram Nair,customer85@example.com,Delhi,Mobile App,Fashion,T-Shirt,5.0,637.19,0.15,3185.95,2708.06,2025-10
+ORD-00178,2025-10-27,Ananya Gupta,customer178@example.com,Mumbai,Mobile App,Books,Mystery Novel,2.0,331.02,0.05,662.04,628.94,2025-10
+ORD-00393,2025-10-27,Ananya Gupta,customer393@example.com,Bengaluru,Retail Store,Fashion,Backpack,5.0,1318.15,0.15,6590.75,5602.14,2025-10
+ORD-00569,2025-10-27,Aarav Sharma,customer569@example.com,Mumbai,Retail Store,Electronics,USB-C Hub,5.0,1879.39,0.05,9396.95,8927.1,2025-10
+ORD-00419,2025-10-28,Meera Kumar,customer419@example.com,Kolkata,Marketplace,Books,Mystery Novel,1.0,315.3,0.15,315.3,268.0,2025-10
+ORD-00307,2025-10-29,Rohan Patel,customer307@example.com,Bengaluru,Retail Store,Sports,Yoga Mat,1.0,791.02,0.15,791.02,672.37,2025-10
+ORD-00804,2025-10-29,Diya Verma,customer804@example.com,Jaipur,Marketplace,Sports,Yoga Mat,4.0,906.82,0.0,3627.28,3627.28,2025-10
+ORD-00951,2025-10-29,Isha Reddy,customer951@example.com,Jaipur,Retail Store,Sports,Dumbbells,1.0,1486.12,0.05,1486.12,1411.81,2025-10
+ORD-00105,2025-10-30,Ananya Gupta,customer105@example.com,Bengaluru,Marketplace,Fashion,T-Shirt,1.0,537.32,0.15,537.32,456.72,2025-10
+ORD-00400,2025-10-30,Arjun Das,customer400@example.com,Mumbai,Retail Store,Electronics,USB-C Hub,4.0,1849.31,0.0,7397.24,7397.24,2025-10
+ORD-00023,2025-10-31,Sana Singh,customer23@example.com,Chennai,Retail Store,Books,Mystery Novel,2.0,369.61,0.1,739.22,665.3,2025-10
+ORD-00256,2025-10-31,Diya Verma,customer256@example.com,Pune,Retail Store,Books,SQL Basics,5.0,595.48,0.05,2977.4,2828.53,2025-10
+ORD-00295,2025-10-31,Rohan Patel,customer295@example.com,Kolkata,Marketplace,Sports,Yoga Mat,5.0,818.46,0.15,4092.3,3478.46,2025-10
+ORD-00516,2025-10-31,Rohan Patel,customer516@example.com,Chennai,Mobile App,Fashion,Backpack,4.0,1382.6,0.0,5530.4,5530.4,2025-10
+ORD-00921,2025-10-31,Aarav Sharma,customer921@example.com,Jaipur,Marketplace,Books,SQL Basics,1.0,636.71,0.05,636.71,604.87,2025-10
+ORD-00726,2025-11-01,Kabir Rao,customer726@example.com,Hyderabad,Retail Store,Fashion,Backpack,1.0,1299.21,0.0,1299.21,1299.21,2025-11
+ORD-00756,2025-11-02,Aarav Sharma,customer756@example.com,Chennai,Mobile App,Electronics,Mouse,3.0,693.59,0.05,2080.77,1976.73,2025-11
+ORD-00570,2025-11-03,Vikram Nair,customer570@example.com,Mumbai,Retail Store,Electronics,Mouse,4.0,878.6,0.0,3514.4,3514.4,2025-11
+ORD-00696,2025-11-03,Ananya Gupta,customer696@example.com,Delhi,Retail Store,Home & Kitchen,Mixer,4.0,2838.08,0.15,11352.32,9649.47,2025-11
+ORD-00558,2025-11-04,Rohan Patel,customer558@example.com,Mumbai,Website,Home & Kitchen,Mixer,1.0,2770.56,0.0,2770.56,2770.56,2025-11
+ORD-00669,2025-11-04,Vikram Nair,customer669@example.com,Delhi,Website,Home & Kitchen,Mixer,2.0,2806.67,0.0,5613.34,5613.34,2025-11
+ORD-00793,2025-11-04,Meera Kumar,customer793@example.com,Pune,Website,Sports,Resistance Band,5.0,624.85,0.0,3124.25,3124.25,2025-11
+ORD-00308,2025-11-05,Ananya Gupta,customer308@example.com,Pune,Retail Store,Electronics,USB-C Hub,2.0,1995.41,0.0,3990.82,3990.82,2025-11
+ORD-00344,2025-11-05,Isha Reddy,customer344@example.com,Hyderabad,Marketplace,Electronics,USB-C Hub,4.0,1747.43,0.0,6989.72,6989.72,2025-11
+ORD-00999,2025-11-05,Rohan Patel,customer999@example.com,Chennai,Marketplace,Sports,Resistance Band,1.0,707.23,0.15,707.23,601.15,2025-11
+ORD-00235,2025-11-06,Vikram Nair,customer235@example.com,Mumbai,Marketplace,Sports,Yoga Mat,3.0,904.18,0.1,2712.54,2441.29,2025-11
+ORD-00292,2025-11-06,Rohan Patel,customer292@example.com,Chennai,Mobile App,Books,Data Analytics 101,2.0,507.12,0.0,1014.24,1014.24,2025-11
+ORD-00390,2025-11-06,Aarav Sharma,customer390@example.com,Kolkata,Website,Sports,Dumbbells,3.0,1405.86,0.0,4217.58,4217.58,2025-11
+ORD-00543,2025-11-06,Rohan Patel,customer543@example.com,Pune,Marketplace,Electronics,USB-C Hub,2.0,1686.39,0.05,3372.78,3204.14,2025-11
+ORD-00600,2025-11-06,Arjun Das,customer600@example.com,Delhi,Website,Books,SQL Basics,2.0,592.62,0.0,1185.24,1185.24,2025-11
+ORD-00920,2025-11-06,Vikram Nair,customer920@example.com,Pune,Retail Store,Electronics,Mouse,1.0,718.73,0.1,718.73,646.86,2025-11
+ORD-00217,2025-11-07,Rohan Patel,customer217@example.com,Delhi,Retail Store,Books,Mystery Novel,5.0,393.27,0.1,1966.35,1769.72,2025-11
+ORD-00567,2025-11-07,Meera Kumar,customer567@example.com,Chennai,Marketplace,Electronics,Headphones,1.0,1750.37,0.1,1750.37,1575.33,2025-11
+ORD-00650,2025-11-07,Sana Singh,customer650@example.com,Bengaluru,Mobile App,Home & Kitchen,Desk Lamp,4.0,889.11,0.0,3556.44,3556.44,2025-11
+ORD-00353,2025-11-08,Aarav Sharma,customer353@example.com,Delhi,Mobile App,Sports,Dumbbells,5.0,1509.91,0.0,7549.55,7549.55,2025-11
+ORD-00406,2025-11-08,Meera Kumar,customer406@example.com,Jaipur,Mobile App,Sports,Dumbbells,5.0,1424.35,0.0,7121.75,7121.75,2025-11
+ORD-00611,2025-11-08,Vikram Nair,customer611@example.com,Delhi,Retail Store,Sports,Dumbbells,5.0,1393.23,0.0,6966.15,6966.15,2025-11
+ORD-00829,2025-11-08,Meera Kumar,customer829@example.com,Delhi,Marketplace,Electronics,Mouse,3.0,914.85,0.1,2744.55,2470.1,2025-11
+ORD-00877,2025-11-08,Diya Verma,customer877@example.com,Pune,Marketplace,Sports,Dumbbells,5.0,1308.52,0.1,6542.6,5888.34,2025-11
+ORD-00305,2025-11-09,Diya Verma,customer305@example.com,Bengaluru,Mobile App,Sports,Yoga Mat,5.0,696.88,0.05,3484.4,3310.18,2025-11
+ORD-00649,2025-11-09,Isha Reddy,customer649@example.com,Mumbai,Marketplace,Sports,Resistance Band,1.0,681.85,0.0,681.85,681.85,2025-11
+ORD-00652,2025-11-09,Sana Singh,customer652@example.com,Delhi,Mobile App,Fashion,Sneakers,5.0,2265.63,0.0,11328.15,11328.15,2025-11
+ORD-00799,2025-11-09,Vikram Nair,customer799@example.com,Mumbai,Retail Store,Fashion,Backpack,2.0,1318.41,0.0,2636.82,2636.82,2025-11
+ORD-00067,2025-11-10,Rohan Patel,customer67@example.com,Hyderabad,Website,Sports,Yoga Mat,3.0,682.82,0.1,2048.46,1843.61,2025-11
+ORD-00827,2025-11-10,Isha Reddy,customer827@example.com,Mumbai,Mobile App,Home & Kitchen,Desk Lamp,5.0,799.41,0.05,3997.05,3797.2,2025-11
+ORD-00988,2025-11-10,Aarav Sharma,customer988@example.com,Chennai,Marketplace,Fashion,T-Shirt,4.0,565.65,0.0,2262.6,2262.6,2025-11
+ORD-00276,2025-11-11,Diya Verma,customer276@example.com,Kolkata,Marketplace,Sports,Dumbbells,2.0,1552.94,0.0,3105.88,3105.88,2025-11
+ORD-00083,2025-11-12,Vikram Nair,customer83@example.com,Mumbai,Mobile App,Fashion,Sneakers,5.0,2258.09,0.15,11290.45,9596.88,2025-11
+ORD-00550,2025-11-12,Rohan Patel,customer550@example.com,Mumbai,Mobile App,Fashion,Backpack,1.0,1204.02,0.1,1204.02,1083.62,2025-11
+ORD-00919,2025-11-12,Ananya Gupta,customer919@example.com,Chennai,Mobile App,Sports,Dumbbells,2.0,1303.63,0.0,2607.26,2607.26,2025-11
+ORD-00146,2025-11-13,Isha Reddy,customer146@example.com,Jaipur,Marketplace,Books,Data Analytics 101,5.0,564.38,0.0,2821.9,2821.9,2025-11
+ORD-00186,2025-11-13,Vikram Nair,customer186@example.com,Mumbai,Website,Books,Mystery Novel,1.0,327.68,0.1,327.68,294.91,2025-11
+ORD-00492,2025-11-13,Diya Verma,customer492@example.com,Pune,Retail Store,Fashion,Backpack,2.0,1392.02,0.0,2784.04,2784.04,2025-11
+ORD-00505,2025-11-13,Ananya Gupta,customer505@example.com,Mumbai,Retail Store,Sports,Dumbbells,5.0,1277.39,0.0,6386.95,6386.95,2025-11
+ORD-00924,2025-11-13,Isha Reddy,customer924@example.com,Pune,Website,Books,Data Analytics 101,5.0,472.4,0.05,2362.0,2243.9,2025-11
+ORD-00214,2025-11-14,Isha Reddy,customer214@example.com,Bengaluru,Retail Store,Fashion,Backpack,4.0,1325.38,0.1,5301.52,4771.37,2025-11
+ORD-00469,2025-11-14,Rohan Patel,customer469@example.com,Mumbai,Mobile App,Sports,Yoga Mat,1.0,680.68,0.05,680.68,646.65,2025-11
+ORD-00883,2025-11-14,Diya Verma,customer883@example.com,Jaipur,Retail Store,Fashion,T-Shirt,4.0,547.78,0.15,2191.12,1862.45,2025-11
+ORD-00479,2025-11-15,Aarav Sharma,customer479@example.com,Hyderabad,Mobile App,Books,SQL Basics,4.0,642.55,0.0,2570.2,2570.2,2025-11
+ORD-00721,2025-11-15,Ananya Gupta,customer721@example.com,Kolkata,Website,Sports,Dumbbells,2.0,1510.75,0.15,3021.5,2568.28,2025-11
+ORD-00432,2025-11-16,Kabir Rao,customer432@example.com,Mumbai,Marketplace,Sports,Yoga Mat,2.0,717.02,0.05,1434.04,1362.34,2025-11
+ORD-00923,2025-11-17,Arjun Das,customer923@example.com,Delhi,Retail Store,Fashion,Backpack,4.0,1285.84,0.05,5143.36,4886.19,2025-11
+ORD-00984,2025-11-17,Aarav Sharma,customer984@example.com,Hyderabad,Website,Books,SQL Basics,2.0,587.28,0.15,1174.56,998.38,2025-11
+ORD-00684,2025-11-18,Sana Singh,customer684@example.com,Jaipur,Retail Store,Home & Kitchen,Desk Lamp,4.0,970.26,0.1,3881.04,3492.94,2025-11
+ORD-00936,2025-11-18,Ananya Gupta,customer936@example.com,Chennai,Mobile App,Sports,Yoga Mat,2.0,741.27,0.15,1482.54,1260.16,2025-11
+ORD-00041,2025-11-19,Diya Verma,customer41@example.com,Delhi,Mobile App,Home & Kitchen,Bottle,4.0,387.38,0.05,1549.52,1472.04,2025-11
+ORD-00048,2025-11-19,Rohan Patel,customer48@example.com,Chennai,Website,Fashion,T-Shirt,1.0,603.2,0.15,603.2,512.72,2025-11
+ORD-00585,2025-11-19,Sana Singh,customer585@example.com,Hyderabad,Retail Store,Sports,Yoga Mat,2.0,850.58,0.15,1701.16,1445.99,2025-11
+ORD-00845,2025-11-19,Vikram Nair,customer845@example.com,Kolkata,Retail Store,Electronics,USB-C Hub,2.0,2147.13,0.0,4294.26,4294.26,2025-11
+ORD-00736,2025-11-20,Meera Kumar,customer736@example.com,Jaipur,Retail Store,Fashion,Backpack,1.0,1425.86,0.1,1425.86,1283.27,2025-11
+ORD-00275,2025-11-21,Meera Kumar,customer275@example.com,Pune,Retail Store,Electronics,USB-C Hub,2.0,2044.64,0.0,4089.28,4089.28,2025-11
+ORD-00703,2025-11-21,Kabir Rao,customer703@example.com,Jaipur,Mobile App,Home & Kitchen,Bottle,1.0,391.03,0.15,391.03,332.38,2025-11
+ORD-00870,2025-11-22,Kabir Rao,customer870@example.com,Jaipur,Mobile App,Fashion,T-Shirt,4.0,572.76,0.15,2291.04,1947.38,2025-11
+ORD-00966,2025-11-22,Diya Verma,customer966@example.com,Hyderabad,Mobile App,Books,Mystery Novel,4.0,346.55,0.1,1386.2,1247.58,2025-11
+ORD-00309,2025-11-24,Ananya Gupta,customer309@example.com,Jaipur,Mobile App,Sports,Dumbbells,3.0,1336.93,0.05,4010.79,3810.25,2025-11
+ORD-00599,2025-11-24,Kabir Rao,customer599@example.com,Chennai,Website,Fashion,T-Shirt,2.0,679.67,0.1,1359.34,1223.41,2025-11
+ORD-00578,2025-11-25,Isha Reddy,customer578@example.com,Pune,Website,Home & Kitchen,Bottle,2.0,405.91,0.0,811.82,811.82,2025-11
+ORD-00690,2025-11-25,Kabir Rao,customer690@example.com,Bengaluru,Marketplace,Books,Mystery Novel,2.0,347.84,0.1,695.68,626.11,2025-11
+ORD-00906,2025-11-25,Isha Reddy,customer906@example.com,Mumbai,Website,Fashion,Sneakers,2.0,2744.89,0.0,5489.78,5489.78,2025-11
+ORD-00760,2025-11-26,Isha Reddy,customer760@example.com,Mumbai,Retail Store,Home & Kitchen,Bottle,3.0,401.75,0.0,1205.25,1205.25,2025-11
+ORD-00053,2025-11-28,Vikram Nair,customer53@example.com,Bengaluru,Retail Store,Sports,Yoga Mat,2.0,719.33,0.05,1438.66,1366.73,2025-11
+ORD-00119,2025-11-28,Meera Kumar,customer119@example.com,Delhi,Website,Books,Mystery Novel,5.0,342.55,0.1,1712.75,1541.48,2025-11
+ORD-00495,2025-11-28,Vikram Nair,customer495@example.com,Mumbai,Marketplace,Fashion,Sneakers,4.0,2758.45,0.0,11033.8,11033.8,2025-11
+ORD-00358,2025-11-29,Arjun Das,customer358@example.com,Chennai,Retail Store,Home & Kitchen,Bottle,2.0,433.17,0.0,866.34,866.34,2025-11
+ORD-00360,2025-11-29,Ananya Gupta,customer360@example.com,Pune,Marketplace,Books,Mystery Novel,2.0,339.3,0.1,678.6,610.74,2025-11
+ORD-00622,2025-11-29,Meera Kumar,customer622@example.com,Hyderabad,Marketplace,Fashion,T-Shirt,4.0,553.89,0.1,2215.56,1994.0,2025-11
+ORD-00979,2025-11-29,Rohan Patel,customer979@example.com,Hyderabad,Marketplace,Sports,Dumbbells,4.0,1311.7,0.0,5246.8,5246.8,2025-11
+ORD-00173,2025-11-30,Kabir Rao,customer173@example.com,Jaipur,Marketplace,Fashion,T-Shirt,5.0,555.56,0.05,2777.8,2638.91,2025-11
+ORD-00589,2025-11-30,Diya Verma,customer589@example.com,Bengaluru,Retail Store,Electronics,Mouse,3.0,777.07,0.05,2331.21,2214.65,2025-11
+ORD-00204,2025-12-01,Isha Reddy,customer204@example.com,Kolkata,Mobile App,Home & Kitchen,Bottle,5.0,376.73,0.05,1883.65,1789.47,2025-12
+ORD-00453,2025-12-01,Ananya Gupta,customer453@example.com,Mumbai,Mobile App,Electronics,Mouse,3.0,737.49,0.05,2212.47,2101.85,2025-12
+ORD-00158,2025-12-02,Ananya Gupta,customer158@example.com,Mumbai,Website,Fashion,Sneakers,2.0,2658.48,0.1,5316.96,4785.26,2025-12
+ORD-00301,2025-12-02,Diya Verma,customer301@example.com,Mumbai,Mobile App,Home & Kitchen,Bottle,1.0,433.02,0.05,433.02,411.37,2025-12
+ORD-00338,2025-12-02,Meera Kumar,customer338@example.com,Kolkata,Mobile App,Electronics,Headphones,4.0,2212.21,0.0,8848.84,8848.84,2025-12
+ORD-00383,2025-12-02,Vikram Nair,customer383@example.com,Bengaluru,Website,Fashion,Sneakers,1.0,2486.13,0.05,2486.13,2361.82,2025-12
+ORD-00582,2025-12-02,Aarav Sharma,customer582@example.com,Delhi,Marketplace,Home & Kitchen,Desk Lamp,1.0,937.04,0.0,937.04,937.04,2025-12
+ORD-00802,2025-12-02,Arjun Das,customer802@example.com,Hyderabad,Mobile App,Electronics,Headphones,5.0,2211.59,0.15,11057.95,9399.26,2025-12
+ORD-00286,2025-12-03,Meera Kumar,customer286@example.com,Kolkata,Website,Books,Data Analytics 101,3.0,475.5,0.0,1426.5,1426.5,2025-12
+ORD-00289,2025-12-03,Meera Kumar,customer289@example.com,Pune,Marketplace,Sports,Resistance Band,2.0,752.82,0.1,1505.64,1355.08,2025-12
+ORD-00745,2025-12-03,Sana Singh,customer745@example.com,Hyderabad,Website,Electronics,Mouse,3.0,775.01,0.05,2325.03,2208.78,2025-12
+ORD-00816,2025-12-03,Isha Reddy,customer816@example.com,Delhi,Mobile App,Home & Kitchen,Bottle,2.0,352.33,0.0,704.66,704.66,2025-12
+ORD-00895,2025-12-03,Arjun Das,customer895@example.com,Delhi,Retail Store,Sports,Yoga Mat,4.0,727.96,0.05,2911.84,2766.25,2025-12
+ORD-00426,2025-12-04,Vikram Nair,customer426@example.com,Pune,Website,Books,Data Analytics 101,3.0,506.02,0.15,1518.06,1290.35,2025-12
+ORD-00646,2025-12-04,Vikram Nair,customer646@example.com,Mumbai,Mobile App,Books,Data Analytics 101,4.0,509.06,0.15,2036.24,1730.8,2025-12
+ORD-00791,2025-12-04,Aarav Sharma,customer791@example.com,Bengaluru,Mobile App,Home & Kitchen,Mixer,4.0,2367.92,0.0,9471.68,9471.68,2025-12
+ORD-00225,2025-12-05,Meera Kumar,customer225@example.com,Bengaluru,Mobile App,Fashion,T-Shirt,1.0,546.65,0.0,546.65,546.65,2025-12
+ORD-00310,2025-12-05,Ananya Gupta,customer310@example.com,Delhi,Marketplace,Books,Mystery Novel,3.0,334.53,0.0,1003.59,1003.59,2025-12
+ORD-00357,2025-12-05,Ananya Gupta,customer357@example.com,Jaipur,Website,Fashion,T-Shirt,4.0,611.61,0.05,2446.44,2324.12,2025-12
+ORD-00518,2025-12-05,Diya Verma,customer518@example.com,Bengaluru,Mobile App,Books,SQL Basics,1.0,659.99,0.1,659.99,593.99,2025-12
+ORD-00555,2025-12-05,Meera Kumar,customer555@example.com,Delhi,Website,Home & Kitchen,Bottle,5.0,408.65,0.1,2043.25,1838.92,2025-12
+ORD-00774,2025-12-05,Arjun Das,customer774@example.com,Jaipur,Retail Store,Home & Kitchen,Desk Lamp,4.0,826.41,0.05,3305.64,3140.36,2025-12
+ORD-00869,2025-12-05,Diya Verma,customer869@example.com,Chennai,Marketplace,Sports,Yoga Mat,1.0,911.29,0.15,911.29,774.6,2025-12
+ORD-00531,2025-12-06,Vikram Nair,customer531@example.com,Pune,Retail Store,Sports,Dumbbells,4.0,1606.38,0.15,6425.52,5461.69,2025-12
+ORD-00673,2025-12-06,Isha Reddy,customer673@example.com,Hyderabad,Retail Store,Fashion,Backpack,1.0,1206.16,0.15,1206.16,1025.24,2025-12
+ORD-00731,2025-12-06,Kabir Rao,customer731@example.com,Bengaluru,Mobile App,Sports,Yoga Mat,2.0,807.37,0.0,1614.74,1614.74,2025-12
+ORD-00822,2025-12-06,Vikram Nair,customer822@example.com,Jaipur,Mobile App,Books,Mystery Novel,3.0,354.31,0.0,1062.93,1062.93,2025-12
+ORD-00354,2025-12-07,Vikram Nair,customer354@example.com,Delhi,Retail Store,Books,SQL Basics,2.0,560.97,0.1,1121.94,1009.75,2025-12
+ORD-00607,2025-12-07,Kabir Rao,customer607@example.com,Mumbai,Mobile App,Fashion,T-Shirt,1.0,678.72,0.0,678.72,678.72,2025-12
+ORD-00157,2025-12-08,Ananya Gupta,customer157@example.com,Hyderabad,Retail Store,Sports,Resistance Band,5.0,744.59,0.0,3722.95,3722.95,2025-12
+ORD-00515,2025-12-08,Ananya Gupta,customer515@example.com,Mumbai,Retail Store,Sports,Resistance Band,3.0,789.16,0.0,2367.48,2367.48,2025-12
+ORD-00840,2025-12-08,Isha Reddy,customer840@example.com,Delhi,Website,Home & Kitchen,Mixer,3.0,2320.1,0.1,6960.3,6264.27,2025-12
+ORD-00980,2025-12-08,Ananya Gupta,customer980@example.com,Pune,Retail Store,Fashion,Sneakers,2.0,2716.98,0.05,5433.96,5162.26,2025-12
+ORD-00678,2025-12-09,Meera Kumar,customer678@example.com,Kolkata,Website,Fashion,Backpack,2.0,1386.62,0.0,2773.24,2773.24,2025-12
+ORD-00996,2025-12-09,Rohan Patel,customer996@example.com,Mumbai,Website,Sports,Dumbbells,4.0,1572.05,0.1,6288.2,5659.38,2025-12
+ORD-00785,2025-12-10,Diya Verma,customer785@example.com,Chennai,Mobile App,Sports,Yoga Mat,1.0,800.05,0.0,800.05,800.05,2025-12
+ORD-00834,2025-12-10,Kabir Rao,customer834@example.com,Chennai,Website,Fashion,Backpack,3.0,1460.03,0.0,4380.09,4380.09,2025-12
+ORD-00916,2025-12-11,Ananya Gupta,customer916@example.com,Mumbai,Website,Home & Kitchen,Desk Lamp,2.0,973.31,0.0,1946.62,1946.62,2025-12
+ORD-00097,2025-12-12,Isha Reddy,customer97@example.com,Jaipur,Marketplace,Fashion,Sneakers,4.0,2290.5,0.1,9162.0,8245.8,2025-12
+ORD-00493,2025-12-12,Vikram Nair,customer493@example.com,Kolkata,Website,Electronics,Mouse,3.0,893.8,0.1,2681.4,2413.26,2025-12
+ORD-00767,2025-12-12,Kabir Rao,customer767@example.com,Bengaluru,Marketplace,Fashion,T-Shirt,3.0,642.85,0.15,1928.55,1639.27,2025-12
+ORD-00685,2025-12-13,Ananya Gupta,customer685@example.com,Mumbai,Mobile App,Fashion,Backpack,5.0,1461.26,0.0,7306.3,7306.3,2025-12
+ORD-00890,2025-12-13,Sana Singh,customer890@example.com,Hyderabad,Marketplace,Sports,Resistance Band,3.0,755.75,0.1,2267.25,2040.52,2025-12
+ORD-00115,2025-12-14,Aarav Sharma,customer115@example.com,Mumbai,Marketplace,Sports,Yoga Mat,1.0,885.25,0.1,885.25,796.72,2025-12
+ORD-00148,2025-12-14,Kabir Rao,customer148@example.com,Mumbai,Marketplace,Fashion,T-Shirt,1.0,570.49,0.05,570.49,541.97,2025-12
+ORD-00212,2025-12-14,Diya Verma,customer212@example.com,Mumbai,Mobile App,Home & Kitchen,Mixer,5.0,2231.76,0.0,11158.8,11158.8,2025-12
+ORD-00032,2025-12-15,Kabir Rao,customer32@example.com,Pune,Marketplace,Sports,Yoga Mat,4.0,815.94,0.0,3263.76,3263.76,2025-12
+ORD-00575,2025-12-15,Arjun Das,customer575@example.com,Jaipur,Retail Store,Fashion,T-Shirt,2.0,596.46,0.05,1192.92,1133.27,2025-12
+ORD-00571,2025-12-16,Arjun Das,customer571@example.com,Chennai,Mobile App,Home & Kitchen,Mixer,5.0,2391.46,0.0,11957.3,11957.3,2025-12
+ORD-00741,2025-12-16,Arjun Das,customer741@example.com,Jaipur,Mobile App,Sports,Dumbbells,3.0,1449.06,0.0,4347.18,4347.18,2025-12
+ORD-00565,2025-12-17,Kabir Rao,customer565@example.com,Bengaluru,Marketplace,Home & Kitchen,Bottle,5.0,369.68,0.1,1848.4,1663.56,2025-12
+ORD-00006,2025-12-18,Meera Kumar,customer6@example.com,Kolkata,Mobile App,Electronics,USB-C Hub,5.0,1796.68,0.05,8983.4,8534.23,2025-12
+ORD-00234,2025-12-18,Diya Verma,customer234@example.com,Pune,Retail Store,Fashion,T-Shirt,3.0,516.31,0.1,1548.93,1394.04,2025-12
+ORD-00750,2025-12-18,Kabir Rao,customer750@example.com,Bengaluru,Website,Fashion,Sneakers,3.0,2188.72,0.1,6566.16,5909.54,2025-12
+ORD-00826,2025-12-18,Vikram Nair,customer826@example.com,Delhi,Mobile App,Books,Data Analytics 101,4.0,466.53,0.1,1866.12,1679.51,2025-12
+ORD-00577,2025-12-19,Kabir Rao,customer577@example.com,Chennai,Retail Store,Electronics,USB-C Hub,2.0,2139.04,0.05,4278.08,4064.18,2025-12
+ORD-00945,2025-12-19,Isha Reddy,customer945@example.com,Jaipur,Retail Store,Fashion,Backpack,1.0,1284.67,0.1,1284.67,1156.2,2025-12
+ORD-00683,2025-12-20,Arjun Das,customer683@example.com,Delhi,Mobile App,Fashion,Sneakers,2.0,2713.04,0.15,5426.08,4612.17,2025-12
+ORD-00059,2025-12-21,Sana Singh,customer59@example.com,Delhi,Website,Sports,Dumbbells,1.0,1590.69,0.0,1590.69,1590.69,2025-12
+ORD-00136,2025-12-21,Rohan Patel,customer136@example.com,Jaipur,Mobile App,Sports,Dumbbells,4.0,1553.95,0.15,6215.8,5283.43,2025-12
+ORD-00977,2025-12-21,Diya Verma,customer977@example.com,Hyderabad,Retail Store,Fashion,T-Shirt,5.0,549.16,0.05,2745.8,2608.51,2025-12
+ORD-00118,2025-12-22,Kabir Rao,customer118@example.com,Pune,Website,Fashion,Backpack,1.0,1336.75,0.0,1336.75,1336.75,2025-12
+ORD-00247,2025-12-22,Meera Kumar,customer247@example.com,Delhi,Website,Home & Kitchen,Mixer,3.0,2818.04,0.05,8454.12,8031.41,2025-12
+ORD-00893,2025-12-22,Meera Kumar,customer893@example.com,Mumbai,Marketplace,Electronics,Mouse,2.0,916.3,0.1,1832.6,1649.34,2025-12
+ORD-00926,2025-12-22,Arjun Das,customer926@example.com,Mumbai,Marketplace,Electronics,Mouse,5.0,690.74,0.1,3453.7,3108.33,2025-12
+ORD-00989,2025-12-22,Aarav Sharma,customer989@example.com,Bengaluru,Website,Books,SQL Basics,3.0,517.54,0.1,1552.62,1397.36,2025-12
+ORD-00156,2025-12-23,Vikram Nair,customer156@example.com,Pune,Retail Store,Sports,Yoga Mat,4.0,783.96,0.0,3135.84,3135.84,2025-12
+ORD-00175,2025-12-23,Meera Kumar,customer175@example.com,Jaipur,Website,Fashion,T-Shirt,2.0,591.19,0.05,1182.38,1123.26,2025-12
+ORD-00865,2025-12-23,Ananya Gupta,customer865@example.com,Chennai,Mobile App,Sports,Resistance Band,5.0,696.41,0.0,3482.05,3482.05,2025-12
+ORD-00930,2025-12-23,Kabir Rao,customer930@example.com,Bengaluru,Marketplace,Sports,Yoga Mat,3.0,902.02,0.0,2706.06,2706.06,2025-12
+ORD-00167,2025-12-24,Meera Kumar,customer167@example.com,Delhi,Mobile App,Books,Mystery Novel,3.0,299.62,0.0,898.86,898.86,2025-12
+ORD-00223,2025-12-24,Kabir Rao,customer223@example.com,Hyderabad,Retail Store,Books,Mystery Novel,2.0,326.96,0.0,653.92,653.92,2025-12
+ORD-00595,2025-12-24,Isha Reddy,customer595@example.com,Mumbai,Website,Books,SQL Basics,5.0,550.27,0.05,2751.35,2613.78,2025-12
+ORD-00071,2025-12-25,Meera Kumar,customer71@example.com,Hyderabad,Mobile App,Books,SQL Basics,4.0,573.88,0.0,2295.52,2295.52,2025-12
+ORD-00182,2025-12-25,Vikram Nair,customer182@example.com,Bengaluru,Marketplace,Fashion,Sneakers,3.0,2812.34,0.0,8437.02,8437.02,2025-12
+ORD-00199,2025-12-25,Kabir Rao,customer199@example.com,Jaipur,Website,Electronics,Headphones,4.0,1760.76,0.0,7043.04,7043.04,2025-12
+ORD-00329,2025-12-25,Isha Reddy,customer329@example.com,Chennai,Website,Home & Kitchen,Desk Lamp,2.0,911.18,0.05,1822.36,1731.24,2025-12
+ORD-00447,2025-12-25,Ananya Gupta,customer447@example.com,Mumbai,Marketplace,Home & Kitchen,Desk Lamp,2.0,913.62,0.15,1827.24,1553.15,2025-12
+ORD-00474,2025-12-25,Kabir Rao,customer474@example.com,Hyderabad,Mobile App,Fashion,T-Shirt,5.0,532.51,0.05,2662.55,2529.42,2025-12
+ORD-00627,2025-12-25,Sana Singh,customer627@example.com,Pune,Website,Fashion,T-Shirt,4.0,537.79,0.05,2151.16,2043.6,2025-12
+ORD-00974,2025-12-25,Arjun Das,customer974@example.com,Bengaluru,Website,Sports,Yoga Mat,1.0,768.2,0.15,768.2,652.97,2025-12
+ORD-00889,2025-12-26,Sana Singh,customer889@example.com,Jaipur,Mobile App,Electronics,USB-C Hub,4.0,1998.76,0.15,7995.04,6795.78,2025-12
+ORD-00254,2025-12-27,Ananya Gupta,customer254@example.com,Chennai,Mobile App,Fashion,Backpack,4.0,1326.62,0.15,5306.48,4510.51,2025-12
+ORD-00274,2025-12-27,Meera Kumar,customer274@example.com,Pune,Marketplace,Sports,Dumbbells,5.0,1605.54,0.0,8027.7,8027.7,2025-12
+ORD-00967,2025-12-27,Isha Reddy,customer967@example.com,Mumbai,Retail Store,Home & Kitchen,Bottle,1.0,423.58,0.05,423.58,402.4,2025-12
+ORD-00201,2025-12-28,Isha Reddy,customer201@example.com,Delhi,Retail Store,Fashion,Backpack,2.0,1199.62,0.0,2399.24,2399.24,2025-12
+ORD-00371,2025-12-28,Ananya Gupta,customer371@example.com,Kolkata,Mobile App,Fashion,T-Shirt,4.0,516.9,0.15,2067.6,1757.46,2025-12
+ORD-00489,2025-12-28,Arjun Das,customer489@example.com,Jaipur,Mobile App,Sports,Yoga Mat,2.0,693.38,0.0,1386.76,1386.76,2025-12
+ORD-00708,2025-12-28,Kabir Rao,customer708@example.com,Hyderabad,Mobile App,Fashion,T-Shirt,5.0,601.73,0.05,3008.65,2858.22,2025-12
+ORD-00754,2025-12-28,Meera Kumar,customer754@example.com,Hyderabad,Website,Home & Kitchen,Mixer,4.0,2363.73,0.1,9454.92,8509.43,2025-12
+ORD-00377,2025-12-29,Arjun Das,customer377@example.com,Chennai,Website,Home & Kitchen,Bottle,2.0,354.45,0.15,708.9,602.56,2025-12
+ORD-00606,2025-12-29,Sana Singh,customer606@example.com,Chennai,Marketplace,Sports,Yoga Mat,5.0,708.61,0.1,3543.05,3188.75,2025-12
+ORD-00633,2025-12-29,Arjun Das,customer633@example.com,Mumbai,Marketplace,Books,Mystery Novel,5.0,307.18,0.1,1535.9,1382.31,2025-12
+ORD-00243,2025-12-30,Sana Singh,customer243@example.com,Chennai,Website,Electronics,USB-C Hub,4.0,1632.31,0.0,6529.24,6529.24,2025-12
+ORD-00766,2025-12-30,Aarav Sharma,customer766@example.com,Pune,Website,Electronics,Headphones,3.0,1902.62,0.15,5707.86,4851.68,2025-12
+ORD-00961,2025-12-31,Diya Verma,customer961@example.com,Hyderabad,Marketplace,Sports,Yoga Mat,5.0,857.39,0.15,4286.95,3643.91,2025-12
